@@ -1,56 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
-  Grommet,
-  Main,
+  BrowserRouter,
+  // Switch,
+  // Route,
+  Link
+} from "react-router-dom";
+import {
   Header,
-  Footer,
-  Text,
-  Anchor,
-  Box,
-  Nav,
-} from "grommet";
-import { SidebarButton } from './Components/sidebar';
+  Main,
+} from 'grommet';
+import { Router } from './Router/Router';
+
+// This site has 3 pages, all of which are rendered
+// dynamically in the browser (not server rendered).
+//
+// Although the page does not ever refresh, notice how
+// React Router keeps the URL up to date as you navigate
+// through the site. This preserves the browser history,
+// making sure things like the back button and bookmarks
+// work properly.
 
 const App = () => {
   return (
-    <div className="App">
-      <Grommet>
-        <Header>
-          <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-        </Header>
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <Main pad="large">
-            <Box fill direction="row">
-              <Nav background="neutral-1">
-                {["Home", "About", "Skills", "Work", "Education", "Contact"].map(label => (
-                  <SidebarButton
-                    key={label}
-                    label={label}
-                    // active={label === active}
-                    // onClick={() => setActive(label)}
-                  />
-                ))}
-              </Nav>
-            </Box>
-          </Main>
-        <Footer background="brand" pad="medium">
-          <Text>Copyright</Text>
-          <Anchor label="About" />
-        </Footer>
-      </Grommet>
-    </div>
+    <BrowserRouter>
+      <div className="app-wrapper">
+        <div className="header-wrapper">
+          <Header className="header-component" background="brand" pad="medium">
+            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to="/skills">Skills</Link>
+            <Link className="nav-link" to="/work">Work</Link>
+            <Link className="nav-link" to="/education">Education</Link>
+            <Link className="nav-link" to="/contact">Contact</Link>
+          </Header>
+        </div>
+        <hr />
+        <Main pad="large">
+          <Router />
+        </Main>
+      </div>
+    </BrowserRouter>
   );
 }
 
