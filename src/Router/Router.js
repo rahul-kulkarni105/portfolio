@@ -16,6 +16,7 @@ export const Router = () => {
     <Switch>
       <Route exact path="/" component={Landing} />
       <Route path="/portfolio" component={Landing} />
+      <Route path="/portfolio/" component={Landing} />
       <Route path="/about" component={About} />
       <Route path="/skills" component={Skills} />
       <Route path="/work" component={Work} />
