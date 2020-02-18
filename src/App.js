@@ -27,7 +27,7 @@ const App = () => {
       <div className="app-wrapper">
         <div className="header-wrapper">
           <Header className="header-component" background="brand" pad="medium">
-            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/portfolio">Home</Link>
             <Link className="nav-link" to="/about">About</Link>
             <Link className="nav-link" to="/skills">Skills</Link>
             <Link className="nav-link" to="/work">Work</Link>
