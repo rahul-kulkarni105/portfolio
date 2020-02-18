@@ -14,6 +14,7 @@ import { NotFound } from '../Components/NotFound';
 export const Router = () => {
   return (
     <Switch>
+      <Route exact path="/" component={Landing} />
       <Route path="/portfolio" component={Landing} />
       <Route path="/about" component={About} />
       <Route path="/skills" component={Skills} />
