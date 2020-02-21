@@ -11,21 +11,22 @@ import { LoadingSpinner } from '../Components/LoadingSpinner';
 export const NavBar = () => (
   <nav className="header-wrapper navbar-fixed-top" role="navigation">
     <Header className="header-component col-sm-4 col-sm-12" background="brand" pad="medium">
+      <Suspense fallback={()=> <LoadingSpinner />}>
       {
         Routes.map(({
           routeUrl = '',
           navLabel = '',
-        }) => (
-          <Suspense fallback={()=> <LoadingSpinner />}>
+        }, index) => (
             <Link
               className="nav-link"
               to={`/${routeUrl}`}
+              key={`link-navbar-${index}-${routeUrl}`}
             >
               {navLabel}
             </Link>
-          </Suspense>
         ))
       }
+      </Suspense>
     </Header>
   </nav>
 );
