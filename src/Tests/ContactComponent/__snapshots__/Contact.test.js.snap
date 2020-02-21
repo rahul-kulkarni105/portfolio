@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Contact Test suite Snapshot verification test for Contact Component 1`] = `
+<div
+  className="p-4"
+>
+  <h3>
+    Skills
+  </h3>
+  <ul>
+    <li>
+      Mobile: 508-615-5736
+    </li>
+    <li>
+      Email: rahulkulkarni0510@gmail.com
+    </li>
+    <li>
+      LinkedIn: @rahul-kulkarni105
+      <a
+        href="https://www.linkedin.com/in/rahul-kulkarni105/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        LinkedIn Profile
+      </a>
+    </li>
+    <li>
+      GitHub: rahul-kulkarni105
+      <a
+        href="https://github.com/rahul-kulkarni105"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Github Profile
+      </a>
+    </li>
+  </ul>
+</div>
+`;

@@ -6,7 +6,7 @@ import {
   Link,
 } from "react-router-dom";
 import { Routes } from '../DataStubs/RouterStub';
-import { NotFound } from '../Components/NotFound';
+import { LoadingSpinner } from '../Components/LoadingSpinner';
 
 export const NavBar = () => (
   <nav className="header-wrapper navbar-fixed-top" role="navigation">
@@ -16,7 +16,7 @@ export const NavBar = () => (
           routeUrl = '',
           navLabel = '',
         }) => (
-          <Suspense fallback={()=> NotFound}>
+          <Suspense fallback={()=> <LoadingSpinner />}>
             <Link
               className="nav-link"
               to={`/${routeUrl}`}

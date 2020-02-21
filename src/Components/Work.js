@@ -5,7 +5,7 @@ export const Work = () => (
     <h1>Work History</h1>
     <section>
       <h3>Capgemini (AIG), Oct-2019 to Present</h3>
-      <h2>Anagh Tech (AIG), Aug-2017 to Oct-2019</h2>
+      <h3>Anagh Tech (AIG), Aug-2017 to Oct-2019</h3>
       <h4>Sr. Consultant. Houston, Tx</h4>
       <ul>
         <li>
