@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/NotFound Test suite Snapshot verification test for NotFound Component 1`] = `
+<p>
+  Sorry this is not the page you are looking for. Try other link
+</p>
+`;

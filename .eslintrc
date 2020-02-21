@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "camelcase": "error",
+    "spaced-comment": "error",
+    "linebreak-style": "error",
+    "no-console": "error"
+  },
+  "plugins": [
+    "react",
+    "jex-a11y"
+  ]
+}

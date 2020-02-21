@@ -6,7 +6,7 @@ import {
   Link,
 } from "react-router-dom";
 import { Routes } from '../DataStubs/RouterStub';
-import { LoadingSpinner } from '../Components/LoadingSpinner';
+import { LoadingSpinner } from './LoadingSpinner';
 
 export const NavBar = () => (
   <nav className="header-wrapper navbar-fixed-top" role="navigation">
@@ -17,13 +17,13 @@ export const NavBar = () => (
           routeUrl = '',
           navLabel = '',
         }, index) => (
-            <Link
-              className="nav-link"
-              to={`/${routeUrl}`}
-              key={`link-navbar-${index}-${routeUrl}`}
-            >
-              {navLabel}
-            </Link>
+          <Link
+            className="nav-link"
+            to={`/${routeUrl}`}
+            key={`link-navbar-${index}-${routeUrl}`}
+          >
+            {navLabel}
+          </Link>
         ))
       }
       </Suspense>

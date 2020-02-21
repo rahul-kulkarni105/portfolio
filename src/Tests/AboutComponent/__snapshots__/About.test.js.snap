@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/About Test suite Snapshot verification test for About Component 1`] = `
+<div
+  className="p-4"
+>
+  <h1>
+    About me
+  </h1>
+  <p>
+    Javascript developer with recent experience as a front-end lead. I am passionate about writing good code and continue to explore new standards, features, and technology to improve the way I work.
+  </p>
+</div>
+`;

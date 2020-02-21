@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Skills Test suite Snapshot verification test for Skills Component 1`] = `
+<div
+  className="p-4"
+>
+  <h1>
+    Skills
+  </h1>
+  <ul>
+    <li>
+      Javascript
+    </li>
+    <li>
+      ReactJs
+    </li>
+    <li>
+      Redux
+    </li>
+    <li>
+      Webpack
+    </li>
+    <li>
+      NodeJs
+    </li>
+    <li>
+      Jest
+    </li>
+    <li>
+      Enzyme
+    </li>
+    <li>
+      React Native
+    </li>
+  </ul>
+</div>
+`;
