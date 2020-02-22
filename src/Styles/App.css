@@ -37,22 +37,41 @@
   }
 }
 
-.app-wrapper {
-  position: relative;
-  width: 100%;
-}
-
-.header-wrapper {
-  position: absolute;
-  top: -15px;
-  width: 100%;
-}
-
 .header-component {
   position: fixed !important;
   width: 100%;
+  z-index: 99;
+  border-bottom: 1px solid #7d4cdb;
+}
+
+.nav-wrapper {
+  background-color: white;
+  padding: 0px !important;
+}
+
+.header-wrapper {
+  padding: 0px !important;
+  background-color: #7D4CDB;;
+}
+
+.nav-link-border {
+  border-bottom: 1px solid white;
+}
+
+.nav-link-border-less {
+  border-bottom: 1px solid transparent;
 }
 
 .nav-link {
-  color: black;
+  color:white;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+.router-wrapper {
+  position: absolute;
+  top: 85px;
+  width: 100%;
 }
