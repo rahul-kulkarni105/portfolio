@@ -1,18 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Contact Test suite Snapshot verification test for Contact Component 1`] = `
-<div
+<section
   className="p-4"
 >
   <h3>
-    Skills
+    Contact
   </h3>
   <ul>
     <li>
       Mobile: 508-615-5736
     </li>
     <li>
-      Email: rahulkulkarni0510@gmail.com
+      <a
+        href="mailto:rahulkulkarni0510@gmail.com"
+      >
+        Contact via Email
+      </a>
     </li>
     <li>
       LinkedIn: @rahul-kulkarni105
@@ -35,5 +39,5 @@ exports[`Components/Contact Test suite Snapshot verification test for Contact Co
       </a>
     </li>
   </ul>
-</div>
+</section>
 `;

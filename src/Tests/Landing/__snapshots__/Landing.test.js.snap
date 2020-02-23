@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Landing Test suite Snapshot verification test for Landing Component 1`] = `
-<div
+<section
   className="p-4"
 >
   <p>
@@ -10,5 +10,5 @@ exports[`Components/Landing Test suite Snapshot verification test for Landing Co
   <p>
     This Portfolio is work in progress. :) 
   </p>
-</div>
+</section>
 `;
