@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
 } from "react-router-dom";
 import {
   Footer,
@@ -17,7 +17,7 @@ import GA from './Utils/GoogleAnalytics';
 // const Linkedin = require('./Images/Linkedin.png');
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     { GA.init() && <GA.RouteTracker /> }
     <Suspense fallback={()=> <LoadingSpinner />}>
       <div className="container-fluid">
@@ -39,7 +39,7 @@ const App = () => (
         </div>
       </div>
     </Suspense>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
