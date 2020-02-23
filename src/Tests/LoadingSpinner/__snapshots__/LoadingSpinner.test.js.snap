@@ -2,14 +2,14 @@
 
 exports[`Components/LoadingSpinner Test suite Snapshot verification test for LoadingSpinner Component 1`] = `
 <div
-  class="d-flex justify-content-center"
+  className="d-flex justify-content-center"
 >
   <div
-    class="spinner-border"
+    className="spinner-border"
     role="status"
   >
     <span
-      class="sr-only"
+      className="sr-only"
     >
       Loading...
     </span>
