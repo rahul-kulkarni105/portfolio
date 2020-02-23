@@ -2,19 +2,11 @@ import React, { Suspense } from 'react';
 import {
   HashRouter,
 } from "react-router-dom";
-import {
-  Footer,
-  Text,
-  // Image,
-} from 'grommet';
 import { Router } from './Router/Router';
 import { NavBar } from './Components/NavBar';
 import { LoadingSpinner } from './Components/LoadingSpinner';
-import { GitHubSvg } from './Components/Logos/GitHubSvg';
-import { currentDay } from './Utils/Utilities';
+import { FooterWrapper } from './Components/FooterWrapper';
 import GA from './Utils/GoogleAnalytics';
-
-// const Linkedin = require('./Images/Linkedin.png');
 
 const App = () => (
   <HashRouter basename='/'>
@@ -28,14 +20,7 @@ const App = () => (
               <Router />
             </div>
           </div>
-          <Footer className="footer" background="brand" pad="medium">
-            <Text>Copyright</Text>
-            <Text>Last updated: {currentDay()}</Text>
-            <GitHubSvg
-              link="https://github.com/rahul-kulkarni105"
-            />
-            {/* <Image className="footer-image" src={Linkedin} /> */}
-          </Footer>
+          <FooterWrapper />
         </div>
       </div>
     </Suspense>

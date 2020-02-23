@@ -1,0 +1,25 @@
+import React from 'react';
+import {
+  Footer,
+  Text,
+} from 'grommet';
+import { GitHubSvg } from './Logos/GitHubSvg';
+import { LinkedinSvg } from './Logos/LinkedinSvg';
+import { currentDay } from '../Utils/Utilities';
+
+export const FooterWrapper = () => (
+  <Footer className="footer" background="brand" pad="medium">
+    <Text>Copyright</Text>
+    <Text>Last updated: {currentDay()}</Text>
+    <section>
+      <GitHubSvg
+        link="https://github.com/rahul-kulkarni105"
+        customIconClass="ml-2 mr-2"
+      />
+      <LinkedinSvg
+        link="https://www.linkedin.com/in/rahul-kulkarni105/"
+        customIconClass="ml-2 mr-2"
+      />
+    </section>
+  </Footer>
+);
