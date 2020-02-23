@@ -9,6 +9,7 @@ import { NavLink } from './NavLink';
 
 export const NavBar = () => {
   const [menuUnderLine, setMenuUnderLine] = useState('Home');
+
   const handleOnClick = (event) => {
     const {
       currentTarget: {
@@ -17,13 +18,14 @@ export const NavBar = () => {
     } = event;
     setMenuUnderLine(innerText);
   }
+
   return (
     <nav className="navbar-fixed-top header-component row" role="navigation">
-      <div className="col-sm-3 col-lg-4 col-md-3 nav-wrapper">
+      <section className="col-sm-3 col-lg-4 col-md-3 nav-wrapper">
         <NavDetails />
-      </div>
-      <div className="col-sm-3 col-lg-4 col-md-3"/>
-      <div className="col-sm-12 col-lg-4 col-md-12 header-wrapper">
+      </section>
+      <section className="col-sm-3 col-lg-4 col-md-3"/>
+      <section className="col-sm-12 col-lg-4 col-md-12 header-wrapper">
         <Header className="" background="brand" pad="medium">
           <Suspense fallback={()=> <LoadingSpinner />}>
           {
@@ -44,7 +46,7 @@ export const NavBar = () => {
           }
           </Suspense>
         </Header>
-      </div>
+      </section>
     </nav>
   );
 }

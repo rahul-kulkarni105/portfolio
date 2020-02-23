@@ -9,11 +9,14 @@ import { JestSvg } from './Logos/JestSvg';
 import { EnzymeSvg } from './Logos/EnzymeSvg';
 import { ReactNativeSvg } from './Logos/ReactNativeSvg';
 import { AWSSvg } from './Logos/AWSSvg';
+import { SassSvg } from './Logos/SassSvg';
+import { GitHubSvg } from './Logos/GitHubSvg';
+import { VSCodeSvg } from './Logos/VSCodeSvg';
 
 export const Skills = () => (
-  <div className="p-4 col-12">
+  <section className="p-4 col-12">
     <h1>Skills</h1>
-    <div className="skills-wrapper pt-5">
+    <section className="skills-wrapper pt-5">
       <SkillBox
         langText="Javascript"
         skillDocsUrl="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -57,6 +60,12 @@ export const Skills = () => (
         <EnzymeSvg />
       </SkillBox>
       <SkillBox
+        langText="Sass"
+        skillDocsUrl="https://sass-lang.com/documentation"
+      >
+        <SassSvg />
+      </SkillBox>
+      <SkillBox
         langText="React Native"
         skillDocsUrl="https://facebook.github.io/react-native/docs/getting-started"
       >
@@ -68,6 +77,18 @@ export const Skills = () => (
       >
         <AWSSvg />
       </SkillBox>
-    </div>
-  </div>
+      <SkillBox
+        langText="Git/Github"
+        skillDocsUrl="https://git-scm.com/doc"
+      >
+        <GitHubSvg />
+      </SkillBox>
+      <SkillBox
+        langText="Vs Code"
+        skillDocsUrl="https://code.visualstudio.com/docs"
+      >
+        <VSCodeSvg />
+      </SkillBox>
+    </section>
+  </section>
 );

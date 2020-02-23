@@ -1,14 +1,14 @@
 import React from 'react';
 
 export const Contact = () => (
-  <div className="p-4">
-    <h3>Skills</h3>
+  <section className="p-4">
+    <h3>Contact</h3>
     <ul>
       <li>
         Mobile: 508-615-5736
       </li>
       <li>
-        Email: rahulkulkarni0510@gmail.com
+        <a href="mailto:rahulkulkarni0510@gmail.com">Contact via Email</a>
       </li>
       <li>
         LinkedIn: @rahul-kulkarni105
@@ -31,5 +31,5 @@ export const Contact = () => (
         </a>
       </li>
     </ul>
-  </div>
+  </section>
 );

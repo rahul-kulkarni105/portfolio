@@ -1,9 +1,11 @@
 import React from 'react';
+import { ReactLoading } from './Logos/ReactLoading';
 
 export const LoadingSpinner = () => (
-  <div className="d-flex justify-content-center">
+  <section className="d-flex justify-content-center">
     <div className="spinner-border" role="status">
-      <span className="sr-only">Loading...</span>
+      <ReactLoading />
+      <p className="sr-only">Loading...</p>
     </div>
-  </div>
+  </section>
 );

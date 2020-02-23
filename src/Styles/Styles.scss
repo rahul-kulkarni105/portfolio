@@ -1,6 +1,11 @@
+// Css Basics
+@import './Basics.scss';
+
+
 @import './index.scss',
         './App.scss';
 
-/* Component styles */
+
+// Component styles
 @import './Nav.scss',
         './Skills.scss';

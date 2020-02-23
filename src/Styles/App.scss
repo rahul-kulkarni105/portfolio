@@ -41,8 +41,25 @@
   position: relative;
 }
 
-.router-wrapper {
-  position: absolute;
-  top: 85px;
-  width: 100%;
+@media (max-width: 576px) {
+  .router-wrapper {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+  }
 }
+
+@media (min-width: 576px) {
+  .router-wrapper {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .router-wrapper {
+    top: 85px;
+  }
+}
+

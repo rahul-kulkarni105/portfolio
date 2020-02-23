@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Education = () => (
-  <div className="p-4">
+  <section className="p-4">
     <h1>ACADEMIC BACKGROUND</h1>
     <section>
       <h3>University of Massachusetts, Dartmouth</h3>
@@ -31,5 +31,5 @@ export const Education = () => (
         </li>
       </ul>
     </section>
-  </div>
+  </section>
 );
