@@ -1,4 +1,4 @@
-export const Routes = [
+export const NavRoutes = [
   {
     routeUrl: 'portfolio',
     navLabel: 'Home',

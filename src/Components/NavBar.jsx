@@ -2,7 +2,7 @@ import React, { Suspense, useState } from 'react';
 import {
   Header,
 } from 'grommet';
-import { Routes } from '../DataStubs/RouterStub';
+import { NavRoutes } from '../DataStubs/NavRouterStub';
 import { NavDetails } from './NavDetails';
 import { LoadingSpinner } from './LoadingSpinner';
 import { NavLink } from './NavLink';
@@ -29,7 +29,7 @@ export const NavBar = () => {
         <Header className="" background="brand" pad="medium">
           <Suspense fallback={()=> <LoadingSpinner />}>
           {
-            Routes.map(({
+            NavRoutes.map(({
               routeUrl = '',
               navLabel = '',
             }, index) => {
