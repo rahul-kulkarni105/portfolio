@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Raleway;
+}
+
+h1, .h1 {
+  font-size: 2.375rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 2.175rem;
+  letter-spacing: 0px;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+  line-height: 2.125rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 2.125rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h5, .h5 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  line-height: 1.125rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  &:active,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0.5px;
+}
+
+blockquote {
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+pre {
+  font-family: Raleway;
+  font-size: 0.5416666666666666rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 0.7738083333333333rem;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
