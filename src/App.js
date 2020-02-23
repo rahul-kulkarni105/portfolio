@@ -17,7 +17,7 @@ import GA from './Utils/GoogleAnalytics';
 // const Linkedin = require('./Images/Linkedin.png');
 
 const App = () => (
-  <HashRouter>
+  <HashRouter basename='/'>
     { GA.init() && <GA.RouteTracker /> }
     <Suspense fallback={()=> <LoadingSpinner />}>
       <div className="container-fluid">
