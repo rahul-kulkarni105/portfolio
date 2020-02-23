@@ -10,7 +10,7 @@ import { EnzymeSvg } from './Logos/EnzymeSvg';
 import { ReactNativeSvg } from './Logos/ReactNativeSvg';
 import { AWSSvg } from './Logos/AWSSvg';
 import { SassSvg } from './Logos/SassSvg';
-import { GitHubSvg } from './Logos/GitHubSvg';
+import { GitSvg } from './Logos/GitSvg';
 import { VSCodeSvg } from './Logos/VSCodeSvg';
 
 export const Skills = () => (
@@ -78,10 +78,10 @@ export const Skills = () => (
         <AWSSvg />
       </SkillBox>
       <SkillBox
-        langText="Git/Github"
+        langText="Git"
         skillDocsUrl="https://git-scm.com/doc"
       >
-        <GitHubSvg />
+        <GitSvg />
       </SkillBox>
       <SkillBox
         langText="Vs Code"

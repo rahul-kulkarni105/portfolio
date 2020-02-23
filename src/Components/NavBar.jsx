@@ -21,11 +21,11 @@ export const NavBar = () => {
 
   return (
     <nav className="navbar-fixed-top header-component row" role="navigation">
-      <section className="col-sm-3 col-lg-4 col-md-3 nav-wrapper">
+      <section className="col nav-wrapper">
         <NavDetails />
       </section>
-      <section className="col-sm-3 col-lg-4 col-md-3"/>
-      <section className="col-sm-12 col-lg-4 col-md-12 header-wrapper">
+      <section className="col"/>
+      <section className="col header-wrapper">
         <Header className="" background="brand" pad="medium">
           <Suspense fallback={()=> <LoadingSpinner />}>
           {
