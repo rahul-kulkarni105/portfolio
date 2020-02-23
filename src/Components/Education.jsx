@@ -14,7 +14,7 @@ const ytiet3 = require('../Images/ytiet3.jpeg');
 
 export const Education = () => (
   <section className="p-4">
-    <h1 className="pb-5">ACADEMIC BACKGROUND</h1>
+    <h1 className="pb-5">Academic Background</h1>
     <section className="">
       <section className="education-card grow col-12 col-sm-10 offset-md-1 col-md-8 offset-md-2 p-0 mb-5">
         <Box className="" height="small" width="medium" overflow="hidden">

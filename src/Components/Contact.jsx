@@ -5,9 +5,6 @@ export const Contact = () => (
     <h1 className="pb-5">Contact</h1>
     <ul>
       <li>
-        Mobile: 508-615-5736
-      </li>
-      <li>
         <a href="mailto:rahulkulkarni0510@gmail.com">Contact via Email</a>
       </li>
       <li>
