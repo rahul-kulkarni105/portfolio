@@ -7,7 +7,7 @@ import {
 
 export const Work = () => (
   <section className="p-4">
-    <h1>Work History</h1>
+    <h1 className="pb-5">Work History</h1>
     <Box>
       <Accordion>
         <AccordionPanel className="p-3" label="Capgemini (AIG), Oct-2019 to Present">

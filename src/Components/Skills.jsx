@@ -15,7 +15,7 @@ import { VSCodeSvg } from './Logos/VSCodeSvg';
 
 export const Skills = () => (
   <section className="p-4 col-12">
-    <h1>Skills</h1>
+    <h1 className="pb-5">Skills</h1>
     <section className="skills-wrapper pt-5">
       <SkillBox
         langText="Javascript"

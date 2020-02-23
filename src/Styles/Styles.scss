@@ -1,5 +1,6 @@
 // Css Basics
-@import './Basics.scss';
+@import './Basics.scss',
+        './Common.scss';
 
 
 @import './index.scss',
@@ -8,4 +9,5 @@
 
 // Component styles
 @import './Nav.scss',
-        './Skills.scss';
+        './Skills.scss',
+        './Education.scss';
