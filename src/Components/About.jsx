@@ -7,7 +7,7 @@ export const About = () => (
       <p>Javascript developer with experience as a front-end lead. I am passionate about writing good code and continue to explore new standards, features, and technology to improve the way I work.</p>
     </section>
     <section className="about-cards col-sm-7"></section>
-    <section className="about-cards col-sm-7">
+    <section className="about-cards col">
       Books I am currently reading:
       <ul>
         <li>Soccernomics <i>by Simon Kuper & Stefan Szymanski</i></li>
