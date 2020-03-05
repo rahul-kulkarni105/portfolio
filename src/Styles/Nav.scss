@@ -30,10 +30,10 @@
 .nav-link {
   color:white;
   &:hover {
-    color: yellow;
+    color: #FFFF00;
   }
 }
 
-.nav-link::hover {
-  color: yellow;
+.nav-link:hover {
+  color: #FFFF00;
 }
