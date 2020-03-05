@@ -3,7 +3,7 @@ import {
   HashRouter,
 } from "react-router-dom";
 import { Router } from './Router/Router';
-import { NavBar } from './Components/NavBar';
+import { NavBar } from './Components/Navigation/NavBar';
 import { LoadingSpinner } from './Components/LoadingSpinner';
 import { FooterWrapper } from './Components/FooterWrapper';
 import GA from './Utils/GoogleAnalytics';

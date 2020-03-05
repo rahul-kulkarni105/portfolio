@@ -2,9 +2,9 @@ import React, { Suspense, useState } from 'react';
 import {
   Header,
 } from 'grommet';
-import { NavRoutes } from '../DataStubs/NavRouterStub';
+import { NavRoutes } from '../../DataStubs/NavRouterStub';
 import { NavDetails } from './NavDetails';
-import { LoadingSpinner } from './LoadingSpinner';
+import { LoadingSpinner } from '../LoadingSpinner';
 import { NavLink } from './NavLink';
 
 export const NavBar = () => {
