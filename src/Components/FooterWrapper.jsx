@@ -9,8 +9,9 @@ import { currentDay } from '../Utils/Utilities';
 
 export const FooterWrapper = () => (
   <Footer className="footer" background="brand" pad="medium">
-    <Text>Copyright</Text>
-    <Text>Last updated: {currentDay()}</Text>
+    <section>
+      <Text className="p-2 footer__text">Last updated: {currentDay()}</Text>
+    </section>
     <section>
       <GitHubSvg
         link="https://github.com/rahul-kulkarni105"
