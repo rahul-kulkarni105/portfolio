@@ -24,7 +24,7 @@ export const NavBar = () => {
       <section className="col nav-wrapper">
         <NavDetails />
       </section>
-      <section className="col"/>
+      <section className="col nav-col"/>
       <section className="col header-wrapper">
         <Header className="" background="brand" pad="medium">
           <Suspense fallback={()=> <LoadingSpinner />}>
