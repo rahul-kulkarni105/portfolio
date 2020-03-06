@@ -26,7 +26,7 @@ export const NavBar = () => {
       </section>
       <section className="col nav-col"/>
       <section className="col header-wrapper">
-        <Header className="" background="brand" pad="medium">
+        <Header className="header__grommet" background="#000" pad="medium">
           <Suspense fallback={()=> <LoadingSpinner />}>
           {
             NavRoutes.map(({

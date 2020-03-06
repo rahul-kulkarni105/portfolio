@@ -1,0 +1,28 @@
+.landing {
+  &__wrapper {
+    position: relative;
+    min-height: 82vh;
+    background-image: url('../Images/bg3-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }
+
+  &__content {
+    position: absolute;
+    bottom: 235px;
+  }
+
+  &__paragraph {
+    @extend .text-white;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing {
+    &__content {
+      bottom: 85px;
+    }
+  }
+}

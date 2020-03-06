@@ -8,7 +8,7 @@ import { LinkedinSvg } from './Logos/LinkedinSvg';
 import { currentDay } from '../Utils/Utilities';
 
 export const FooterWrapper = () => (
-  <Footer className="footer" background="brand" pad="medium">
+  <Footer className="footer" background="#000" pad="medium">
     <section>
       <Text className="p-2 footer__text">Last updated: {currentDay()}</Text>
     </section>

@@ -6,7 +6,7 @@ import {
 } from 'grommet';
 
 export const Work = () => (
-  <section className="p-4">
+  <section className="p-4 pt-7">
     <h1 className="pb-5">Work History</h1>
     <Box>
       <Accordion>

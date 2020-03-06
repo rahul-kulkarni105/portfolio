@@ -16,7 +16,7 @@ const App = () => (
         <div className="portfolio-wrapper">
           <div className="page-wrapper">
             <NavBar />
-            <div className="p-5 router-wrapper">
+            <div className="router-wrapper">
               <Router />
             </div>
           </div>

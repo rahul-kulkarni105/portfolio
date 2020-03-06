@@ -14,7 +14,7 @@ import { GitSvg } from './Logos/GitSvg';
 import { VSCodeSvg } from './Logos/VSCodeSvg';
 
 export const Skills = () => (
-  <section className="p-4 col-12">
+  <section className="p-4 pt-7 col-12">
     <h1 className="pb-5">Skills</h1>
     <section className="skills-wrapper pt-5">
       <SkillBox

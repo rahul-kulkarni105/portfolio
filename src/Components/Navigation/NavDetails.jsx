@@ -1,11 +1,11 @@
 import React from 'react';
 
 export const NavDetails = () => (
-  <section className="p-4">
-    <div>
+  <section className="navdetails p-4">
+    <div className="navdetails__content">
       Rahul R Kulkarni
     </div>
-    <div>
+    <div className="">
       Javascript Engineer
     </div>
   </section>
