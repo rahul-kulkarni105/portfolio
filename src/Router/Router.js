@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import { Landing } from '../Components/Landing';
 import { About } from '../Components/About';
-import { Skills } from '../Components/Skills';
+import { Skills } from '../Components/Skills/Skills';
 import { Work } from '../Components/Work';
 import { Education } from '../Components/Education';
 import { Contact } from '../Components/Contact';

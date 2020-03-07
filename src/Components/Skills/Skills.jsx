@@ -1,17 +1,17 @@
 import React from 'react';
 import { SkillBox } from './SkillBox';
-import { JavascriptSvg } from './Logos/JavascriptSvg';
-import { ReactSvg } from './Logos/ReactSvg';
-import { ReduxSvg } from './Logos/ReduxSvg';
-import { WebpackSvg } from './Logos/WebpackSvg';
-import { NodeSvg } from './Logos/NodeSvg';
-import { JestSvg } from './Logos/JestSvg';
-import { EnzymeSvg } from './Logos/EnzymeSvg';
-import { ReactNativeSvg } from './Logos/ReactNativeSvg';
-import { AWSSvg } from './Logos/AWSSvg';
-import { SassSvg } from './Logos/SassSvg';
-import { GitSvg } from './Logos/GitSvg';
-import { VSCodeSvg } from './Logos/VSCodeSvg';
+import { JavascriptSvg } from '../Logos/JavascriptSvg';
+import { ReactSvg } from '../Logos/ReactSvg';
+import { ReduxSvg } from '../Logos/ReduxSvg';
+import { WebpackSvg } from '../Logos/WebpackSvg';
+import { NodeSvg } from '../Logos/NodeSvg';
+import { JestSvg } from '../Logos/JestSvg';
+import { EnzymeSvg } from '../Logos/EnzymeSvg';
+import { ReactNativeSvg } from '../Logos/ReactNativeSvg';
+import { AWSSvg } from '../Logos/AWSSvg';
+import { SassSvg } from '../Logos/SassSvg';
+import { GitSvg } from '../Logos/GitSvg';
+import { VSCodeSvg } from '../Logos/VSCodeSvg';
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12">
