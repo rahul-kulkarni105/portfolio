@@ -15,14 +15,13 @@ import { VSCodeSvg } from '../Logos/VSCodeSvg';
 import { GreenSockSvg } from '../Logos/GreenSockSvg';
 import { BootstrapSvg } from '../Logos/BootstrapSvg';
 import { HerokuSvg } from '../Logos/HerokuSvg';
+import { VueSvg } from '../Logos/VueSvg';
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
     <h1 className="pb-5">Skills</h1>
     <section className="pb-5">
-      <p>
-        Javascript
-      </p>
+      <p>Javascript</p>
       <section className="skills-wrapper">
         <SkillBox
           langText="Javascript"
@@ -42,10 +41,10 @@ export const Skills = () => (
         >
           <ReduxSvg />
         </SkillBox>
-        <SkillBox
-          langText="NodeJs"
-          skillDocsUrl="https://nodejs.org/en/docs/"
-        >
+        <SkillBox langText="VueJs" skillDocsUrl="https://vuejs.org/">
+          <VueSvg />
+        </SkillBox>
+        <SkillBox langText="NodeJs" skillDocsUrl="https://nodejs.org/en/docs/">
           <NodeSvg />
         </SkillBox>
         <SkillBox
@@ -63,9 +62,7 @@ export const Skills = () => (
       </section>
     </section>
     <section className="pb-5">
-      <p>
-        Testing
-      </p>
+      <p>Testing</p>
       <section className="skills-wrapper">
         <SkillBox
           langText="Jest"
@@ -73,18 +70,13 @@ export const Skills = () => (
         >
           <JestSvg />
         </SkillBox>
-        <SkillBox
-          langText="Enzyme"
-          skillDocsUrl="https://airbnb.io/enzyme/"
-        >
+        <SkillBox langText="Enzyme" skillDocsUrl="https://airbnb.io/enzyme/">
           <EnzymeSvg />
         </SkillBox>
       </section>
     </section>
     <section className="pb-5">
-      <p>
-        Css
-      </p>
+      <p>Css</p>
       <section className="skills-wrapper">
         <SkillBox
           langText="Sass"
@@ -107,9 +99,7 @@ export const Skills = () => (
       </section>
     </section>
     <section className="pb-5">
-      <p>
-        Tools
-      </p>
+      <p>Tools</p>
       <section className="skills-wrapper">
         <SkillBox
           langText="Webpack"
@@ -117,10 +107,7 @@ export const Skills = () => (
         >
           <WebpackSvg />
         </SkillBox>
-        <SkillBox
-          langText="Git"
-          skillDocsUrl="https://git-scm.com/doc"
-        >
+        <SkillBox langText="Git" skillDocsUrl="https://git-scm.com/doc">
           <GitSvg />
         </SkillBox>
         <SkillBox
@@ -132,9 +119,7 @@ export const Skills = () => (
       </section>
     </section>
     <section className="pb-5">
-      <p>
-        Cloud
-      </p>
+      <p>Cloud</p>
       <section className="skills-wrapper">
         <SkillBox
           langText="Amazon Web Services"
