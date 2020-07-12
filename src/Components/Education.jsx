@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  Carousel,
-  Image,
-} from 'grommet';
+import { Box, Carousel, Image } from 'grommet';
 
 const umassd1 = require('../Images/umassd1.jpeg');
 const umassd2 = require('../Images/umassd2.jpeg');
@@ -28,11 +24,10 @@ export const Education = () => (
           <h3>University of Massachusetts, Dartmouth</h3>
           <h4>Masters in Computer Science, 2014</h4>
           <ul>
+            <li>Completed projects in Matlab and C++.</li>
             <li>
-              Completed projects in Matlab and C++.
-            </li>
-            <li>
-              Worked as a webmaster for Umassd.edu and Indian student association.
+              Worked as a webmaster for Umassd.edu and Indian student
+              association.
             </li>
           </ul>
         </Box>
@@ -42,11 +37,10 @@ export const Education = () => (
           <h3>University of Mumbai</h3>
           <h4>Bachelor of Engineering in Computer Science, 2012</h4>
           <ul>
+            <li>Active member of Computer Science society.</li>
             <li>
-              Active member of Computer Science society.
-            </li>
-            <li>
-              Worked on airline booking management and analyzed intrusion detection mechanisms.
+              Worked on airline booking management and analyzed intrusion
+              detection mechanisms.
             </li>
             <li>
               Member of student association for football and online gaming

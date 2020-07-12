@@ -15,6 +15,3 @@ export const ReactNativeSvg = () => (
     <rect x="0" y="0" width="256" height="228" fill="rgba(0, 0, 0, 0)" />
   </svg>
 );
-
-
-

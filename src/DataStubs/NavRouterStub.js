@@ -1,5 +1,4 @@
-export const NavRoutes = [
-  {
+export const NavRoutes = [{
     routeUrl: 'portfolio',
     navLabel: 'Home',
   },

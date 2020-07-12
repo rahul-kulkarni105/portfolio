@@ -15,4 +15,3 @@ export const EnzymeSvg = () => (
     <rect x="0" y="0" width="256" height="276" fill="rgba(0, 0, 0, 0)" />
   </svg>
 );
-
