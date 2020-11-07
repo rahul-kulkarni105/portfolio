@@ -4,6 +4,7 @@ export const LinkedinSvg = ({ link = '', customIconClass = '' }) => (
   <a
     href={link}
     target="_blank"
+    title="Linkedin Profile"
     rel="noopener noreferrer"
     className={`footer-icon ${customIconClass}`}
   >

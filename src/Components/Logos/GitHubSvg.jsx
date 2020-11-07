@@ -4,6 +4,7 @@ export const GitHubSvg = ({ link = '', customIconClass = '' }) => (
   <a
     href={link}
     target="_blank"
+    title="Github Profile"
     rel="noopener noreferrer"
     className={`footer-icon ${customIconClass}`}
   >
