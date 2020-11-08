@@ -34,7 +34,7 @@ export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
     <h1 className="pb-5">Skills</h1>
     <section className="pb-5">
-      <p>Web</p>
+      <p>Client</p>
       <section className="skills-wrapper">
         <SkillBox
           langText="Javascript"
