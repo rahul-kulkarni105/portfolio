@@ -10,15 +10,15 @@ export const FooterWrapper = () => {
     const fetchLastUpdated = async () => {
       const response = await fetch(
         'https://api.github.com/repos/rahul-kulkarni105/portfolio/releases/latest'
-      )
+      );
 
-      const body = await response.json()
-      const date = new Date(body.published_at)
-      const formattedDate = new Intl.DateTimeFormat('en-US').format(date)
-      setLastUpdated(formattedDate)
+      const body = await response.json();
+      const date = new Date(body.published_at);
+      const formattedDate = new Intl.DateTimeFormat('en-US').format(date);
+      setLastUpdated(formattedDate);
     }
 
-    fetchLastUpdated()
+    fetchLastUpdated();
   }, []);
 
   return (
