@@ -6,9 +6,28 @@ export const Work = () => (
     <h1 className="pb-5">Work History</h1>
     <Box>
       <Accordion>
+      <AccordionPanel
+          className="p-3"
+          label="Capgemini (Synchrony Financial), Jan-2021 to Present"
+        >
+          <Box
+            className="p-4"
+            background="light-1"
+            overflow="auto"
+            height="small"
+          >
+            <h4>Senior Consultant, Charlotte, Nc</h4>
+            <ul>
+              <li>Front-end lead for two teams with consumer-facing applications.</li>
+              <li>Involved in complete SDLC for new features with React ecosystem and cloud-based applications.</li>
+              <li>Working on bi-weekly production deployments and maintenance activities.</li>
+              <li>Leading efforts for code linting, code review practices, refactoring, and unit testing with React Ecosystem</li>
+            </ul>
+          </Box>
+        </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Capgemini (Wells Fargo), June-2020 to Present"
+          label="Capgemini (Wells Fargo), Apr-2020 to Dec-2020"
         >
           <Box
             className="p-4"
@@ -33,7 +52,7 @@ export const Work = () => (
         </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Capgemini (AIG), Oct-2019 to May-2020"
+          label="Capgemini (AIG), Oct-2019 to Mar-2020"
         >
           <Box
             className="p-4"
