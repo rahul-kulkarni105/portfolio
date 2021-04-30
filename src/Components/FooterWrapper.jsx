@@ -6,7 +6,7 @@ import { LinkedinSvg } from './Logos/LinkedinSvg';
 export const FooterWrapper = () => (
   <Footer className="footer" background="#000" pad="medium">
     <section>
-      <Text className="p-2 footer__text">Last updated: 07-12-2020</Text>
+      <Text className="p-2 footer__text">Last updated: 30-04-2021</Text>
     </section>
     <section>
       <GitHubSvg
