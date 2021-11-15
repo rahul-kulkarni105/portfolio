@@ -32,9 +32,8 @@ export const About = () => (
               Soccernomics <i>by Simon Kuper & Stefan Szymanski</i>
             </li>
             <li>
-              The Club: How the English Premier League Became the Wildest, Richest,
-              Most Disruptive Force in Sports{' '}
-              <i>by Joshua Robinson, Jonathan Clegg</i>
+            The Infinite Machine: How an Army of Crypto-hackers Is Building the Next Internet with Ethereum{' '}
+              <i>by Camila Russo</i>
             </li>
           </ul>
         </section>
