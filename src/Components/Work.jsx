@@ -3,12 +3,12 @@ import { Accordion, AccordionPanel, Box } from 'grommet';
 
 export const Work = () => (
   <section className="p-4 pt-7">
-    <h1 className="pb-5">Work History</h1>
+    <h1 className="pb-5">Experience</h1>
     <Box>
       <Accordion>
       <AccordionPanel
           className="p-3"
-          label="Capgemini (Synchrony Financial), Jan-2021 to Present"
+          label="Synchrony Financial (Capgemini), Jan-2021 to Present"
         >
           <Box
             className="p-4"
@@ -16,18 +16,17 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Senior Consultant, Charlotte, Nc</h4>
+            <h4>Senior Consultant, Charlotte, NC</h4>
             <ul>
-              <li>Front-end lead for two teams with consumer-facing applications.</li>
-              <li>Involved in complete SDLC for new features with React ecosystem and cloud-based applications.</li>
-              <li>Working on bi-weekly production deployments and maintenance activities.</li>
-              <li>Leading efforts for code linting, code review practices, refactoring, and unit testing with React Ecosystem</li>
+              <li>Team lead for agile scrum team developing a consumer-facing web application used in e-commerce payments. Focus on the complete software development lifecycle for cloud-based web applications within the React ecosystem.</li>
+              <li>Leads efforts on enterprise-focused feature releases & system design, extending the current application scope, and maintaining the current working state.</li>
+              <li>Guides software developers through mentoring, feedback, story estimation and prioritized work tasks, and all aspects of application development to ensure quality standards.</li>
             </ul>
           </Box>
         </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Capgemini (Wells Fargo), Apr-2020 to Dec-2020"
+          label="Wells Fargo (Capgemini), Apr-2020 to Dec-2020"
         >
           <Box
             className="p-4"
@@ -35,7 +34,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Senior Consultant, Charlotte, Nc</h4>
+            <h4>Senior Consultant, Charlotte, NC</h4>
             <ul>
               <li>
                 Develop and maintain micro-sites and supporting repositories in
@@ -52,7 +51,7 @@ export const Work = () => (
         </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Capgemini (AIG), Oct-2019 to Mar-2020"
+          label="AIG (Capgemini), Oct-2019 to Mar-2020"
         >
           <Box
             className="p-4"
@@ -60,7 +59,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Senior Consultant, Houston, Tx</h4>
+            <h4>Senior Consultant, Houston, TX</h4>
             <ul>
               <li>
                 Developed and maintained micro-sites and supporting repositories
@@ -84,7 +83,7 @@ export const Work = () => (
         </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Anagh Tech (AIG), Aug-2017 to Oct-2019"
+          label="AIG (Anagh Tech), Aug-2017 to Oct-2019"
         >
           <Box
             className="p-4"
@@ -92,7 +91,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Senior Consultant, Houston, Tx</h4>
+            <h4>Senior Consultant, Houston, TX</h4>
             <ul>
               <li>
                 Develop and maintain micro-sites and supporting repositories in
@@ -114,7 +113,7 @@ export const Work = () => (
         </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Anagh Tech (HPE/DXE), Nov-2016 to July 2017"
+          label="HPE/DXC Technology (Anagh Tech), Nov-2016 to July 2017"
         >
           <Box
             className="p-4"
@@ -122,7 +121,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Web Developer, Austin, Tx</h4>
+            <h4>Web Developer, Austin, TX</h4>
             <ul>
               <li>Worked on intranet sites using React-Redux and Grommet.</li>
               <li>
@@ -140,7 +139,7 @@ export const Work = () => (
         </AccordionPanel>
         <AccordionPanel
           className="p-3"
-          label="Anagh Tech (Code & Theory), June-2016 to Sep 2016"
+          label="Code & Theory (Anagh Tech), June-2016 to Sep 2016"
         >
           <Box
             className="p-4"
@@ -148,7 +147,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Web Developer, New York, Ny</h4>
+            <h4>Web Developer, New York City, NY</h4>
             <ul>
               <li>
                 Developed websites such as, New york life, Heritage.org and
@@ -177,7 +176,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Software Developer, Piscataway, Nj</h4>
+            <h4>Software Developer, Piscataway, NJ</h4>
             <ul>
               <li>Developed internal websites using AngularJs.</li>
               <li>Developed HTML5/Sass based documentation dashboard.</li>

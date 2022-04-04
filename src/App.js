@@ -8,8 +8,7 @@ import GA from './Utils/GoogleAnalytics';
 
 const App = () => (
   <HashRouter basename="/">
-    {' '}
-    {GA.init() && <GA.RouteTracker />}{' '}
+    {GA.init() && <GA.RouteTracker />}
     <Suspense fallback={() => <LoadingSpinner />}>
       <div className="container-fluid">
         <div className="portfolio-wrapper">
@@ -17,12 +16,12 @@ const App = () => (
             <NavBar />
             <div className="router-wrapper">
               <Router />
-            </div>{' '}
-          </div>{' '}
+            </div>
+          </div>
           <FooterWrapper />
-        </div>{' '}
-      </div>{' '}
-    </Suspense>{' '}
+        </div>
+      </div>
+    </Suspense>
   </HashRouter>
 );
 

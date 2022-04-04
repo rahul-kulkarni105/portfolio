@@ -9,7 +9,7 @@ export const Landing = () => {
           Javascript Engineer
         </p>
         <p className="landing__paragraph">
-          This Portfolio is work in progress. :){' '}
+          This Portfolio is work in progress. :)
         </p>
       </section>
     </section>

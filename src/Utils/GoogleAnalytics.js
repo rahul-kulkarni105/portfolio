@@ -55,7 +55,7 @@ const init = (options = {}) => {
   const isGAEnabled = process.env.NODE_ENV === 'production';
 
   if (isGAEnabled) {
-    ReactGA.initialize("UA-158787520-1");
+    ReactGA.initialize(process.env.REACT_APP_GA_ID);
     // More urls can be added here if needed
     ReactGA.pageview('/portfolio');
   }
