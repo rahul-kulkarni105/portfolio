@@ -9,9 +9,7 @@ export const About = () => (
         <section className="about-content">
           <h1 className="pb-5">About me</h1>
           <p>
-            Javascript developer with experience as a front-end lead. I am
-            passionate about writing good code and continue to explore new
-            standards, features, and technology to improve the way I work.
+          Senior Front-End Engineer with 6+ years of comprehensive web application experience, with extensive fintech experience in insurance, credit cards, personal banking & design domains.
           </p>
           <p>
             I absolutely love visiting national parks and plan to visit all 62 of them (right now i have visited about 16).
