@@ -1,13 +1,13 @@
-import React from 'react';
-import { string, any } from 'prop-types';
-import { Box, Text } from 'grommet';
+import React from "react";
+import { string, any } from "prop-types";
+import { Box, Text } from "grommet";
 
 export const SkillBox = ({
   children = null,
-  langText = '',
-  customSkillsBoxClass = '',
-  customSkillsTextClass = '',
-  skillDocsUrl = '',
+  langText = "",
+  customSkillsBoxClass = "",
+  customSkillsTextClass = "",
+  skillDocsUrl = "",
 }) => (
   <a
     href={skillDocsUrl}

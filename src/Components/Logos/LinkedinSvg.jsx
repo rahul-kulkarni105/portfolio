@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-export const LinkedinSvg = ({ link = '', customIconClass = '' }) => (
+export const LinkedinSvg = ({ link = "", customIconClass = "" }) => (
   <a
     href={link}
     target="_blank"

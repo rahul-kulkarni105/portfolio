@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-export const GitHubSvg = ({ link = '', customIconClass = '' }) => (
+export const GitHubSvg = ({ link = "", customIconClass = "" }) => (
   <a
     href={link}
     target="_blank"

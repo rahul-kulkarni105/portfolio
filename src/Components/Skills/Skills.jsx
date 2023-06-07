@@ -1,34 +1,45 @@
-import React from 'react';
-import { SkillBox } from './SkillBox';
-import { JavascriptSvg } from '../Logos/JavascriptSvg';
-import { TypeScriptSvg } from '../Logos/TypeScriptSvg'
-import { ReactSvg } from '../Logos/ReactSvg';
-import { ReduxSvg } from '../Logos/ReduxSvg';
-import { WebpackSvg } from '../Logos/WebpackSvg';
-import { NodeSvg } from '../Logos/NodeSvg';
-import { JestSvg } from '../Logos/JestSvg';
-import { EnzymeSvg } from '../Logos/EnzymeSvg';
-import { CypressSvg } from '../Logos/CypressSvg'
-import { ReactNativeSvg } from '../Logos/ReactNativeSvg';
-import { GoogleAnalyticsSvg } from '../Logos/GoogleAnalyticsSvg'
-import { AdobeAnalyticsSvg } from '../Logos/AdobeAnalyticsSvg'
-import { MongoDbSvg } from '../Logos/MongoDbSvg'
-import { AWSSvg } from '../Logos/AWSSvg';
-import { GoogleCloudSvg } from '../Logos/GoogleCloudSvg'
-import { SassSvg } from '../Logos/SassSvg';
-import { SusySvg } from '../Logos/SusySvg'
-import { BurbonNeatSvg } from '../Logos/BurbonNeatSvg'
-import { TailwindSvg } from '../Logos/TailwindSvg';
-import { GitSvg } from '../Logos/GitSvg';
-import { SourceTreeSvg } from '../Logos/SourceTreeSvg'
-import { VSCodeSvg } from '../Logos/VSCodeSvg';
-import { GreenSockSvg } from '../Logos/GreenSockSvg';
-import { BootstrapSvg } from '../Logos/BootstrapSvg';
-import { HerokuSvg } from '../Logos/HerokuSvg';
-import { VueSvg } from '../Logos/VueSvg';
-import { VuexSvg } from '../Logos/VuexSvg'
-import { AngularSvg } from '../Logos/AngularSvg';
-import { NgRxSvg } from '../Logos/NgRxSvg';
+import React from "react";
+import { SkillBox } from "./SkillBox";
+import { JavascriptSvg } from "../Logos/JavascriptSvg";
+import { TypeScriptSvg } from "../Logos/TypeScriptSvg";
+import { ReactSvg } from "../Logos/ReactSvg";
+import { ReduxSvg } from "../Logos/ReduxSvg";
+import { WebpackSvg } from "../Logos/WebpackSvg";
+import { NodeSvg } from "../Logos/NodeSvg";
+import { JestSvg } from "../Logos/JestSvg";
+import { EnzymeSvg } from "../Logos/EnzymeSvg";
+import { CypressSvg } from "../Logos/CypressSvg";
+import { ReactNativeSvg } from "../Logos/ReactNativeSvg";
+import { GoogleAnalyticsSvg } from "../Logos/GoogleAnalyticsSvg";
+import { AdobeAnalyticsSvg } from "../Logos/AdobeAnalyticsSvg";
+import { MongoDbSvg } from "../Logos/MongoDbSvg";
+import { AWSSvg } from "../Logos/AWSSvg";
+import { GoogleCloudSvg } from "../Logos/GoogleCloudSvg";
+import { SassSvg } from "../Logos/SassSvg";
+import { SusySvg } from "../Logos/SusySvg";
+import { BurbonNeatSvg } from "../Logos/BurbonNeatSvg";
+import { TailwindSvg } from "../Logos/TailwindSvg";
+import { GitSvg } from "../Logos/GitSvg";
+import { SourceTreeSvg } from "../Logos/SourceTreeSvg";
+import { VSCodeSvg } from "../Logos/VSCodeSvg";
+import { GreenSockSvg } from "../Logos/GreenSockSvg";
+import { BootstrapSvg } from "../Logos/BootstrapSvg";
+import { HerokuSvg } from "../Logos/HerokuSvg";
+import { VueSvg } from "../Logos/VueSvg";
+import { VuexSvg } from "../Logos/VuexSvg";
+import { AngularSvg } from "../Logos/AngularSvg";
+import { NgRxSvg } from "../Logos/NgRxSvg";
+import { ViteSvg } from "../Logos/ViteSvg";
+import { ExpressJsSvg } from "../Logos/ExpressJsSvg";
+import { ReactTestingLibrarySvg } from "../Logos/ReactTestingLibrarySvg";
+import { JenkinsSvg } from "../Logos/JenkinsSvg";
+import { JiraSvg } from "../Logos/JiraSvg";
+import { RollupSvg } from "../Logos/RollupSvg";
+import { InVisionSvg } from "../Logos/InVisionSvg";
+import { ZeplinSvg } from "../Logos/ZeplinSvg";
+import { AdobeSvg } from "../Logos/AdobeSvg";
+// import { WhimsicalSvg } from "../Logos/WhimsicalSvg";
+import { PivotalCloudFoundrySvg } from "../Logos/PivotalCloudFoundrySvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -80,6 +91,9 @@ export const Skills = () => (
         <SkillBox langText="NodeJs" skillDocsUrl="https://nodejs.org/en/docs/">
           <NodeSvg />
         </SkillBox>
+        <SkillBox langText="ExpressJs" skillDocsUrl="https://expressjs.com/">
+          <ExpressJsSvg />
+        </SkillBox>
         <SkillBox
           langText="Heroku"
           skillDocsUrl="https://devcenter.heroku.com/categories/reference"
@@ -116,10 +130,19 @@ export const Skills = () => (
         >
           <JestSvg />
         </SkillBox>
+        <SkillBox
+          langText="RTL"
+          skillDocsUrl="https://testing-library.com/docs/"
+        >
+          <ReactTestingLibrarySvg />
+        </SkillBox>
         <SkillBox langText="Enzyme" skillDocsUrl="https://airbnb.io/enzyme/">
           <EnzymeSvg />
         </SkillBox>
-        <SkillBox langText="Cypress" skillDocsUrl="https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell">
+        <SkillBox
+          langText="Cypress"
+          skillDocsUrl="https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell"
+        >
           <CypressSvg />
         </SkillBox>
       </section>
@@ -174,17 +197,61 @@ export const Skills = () => (
         >
           <WebpackSvg />
         </SkillBox>
+        <SkillBox langText="Vite" skillDocsUrl="https://vitejs.dev/">
+          <ViteSvg />
+        </SkillBox>
+        <SkillBox langText="Rollup" skillDocsUrl="https://rollupjs.org/">
+          <RollupSvg />
+        </SkillBox>
         <SkillBox langText="Git" skillDocsUrl="https://git-scm.com/doc">
           <GitSvg />
         </SkillBox>
-        <SkillBox langText="Source Tree" skillDocsUrl="https://confluence.atlassian.com/get-started-with-sourcetree">
+        <SkillBox langText="Jenkins" skillDocsUrl="https://www.jenkins.io/">
+          <JenkinsSvg />
+        </SkillBox>
+        <SkillBox
+          langText="Jira"
+          skillDocsUrl="https://www.atlassian.com/software/jira/guides/getting-started/introduction"
+        >
+          <JiraSvg />
+        </SkillBox>
+        <SkillBox
+          langText="Source Tree"
+          skillDocsUrl="https://confluence.atlassian.com/get-started-with-sourcetree"
+        >
           <SourceTreeSvg />
         </SkillBox>
+        <SkillBox
+          langText="Adobe Experience Manager"
+          skillDocsUrl="https://experienceleague.adobe.com/docs/experience-manager.html?lang=en"
+        >
+          <AdobeSvg />
+        </SkillBox>
+        {/* <SkillBox
+          langText="Whimsical"
+          skillDocsUrl="https://whimsical.com/docs"
+        >
+          <WhimsicalSvg />
+        </SkillBox> */}
         <SkillBox
           langText="Vs Code"
           skillDocsUrl="https://code.visualstudio.com/docs"
         >
           <VSCodeSvg />
+        </SkillBox>
+      </section>
+    </section>
+    <section className="pb-5">
+      <p>Design</p>
+      <section className="skills-wrapper">
+        <SkillBox
+          langText="InVision"
+          skillDocsUrl="https://support.invisionapp.com/"
+        >
+          <InVisionSvg />
+        </SkillBox>
+        <SkillBox langText="Zeplin" skillDocsUrl="https://docs.zeplin.dev/docs">
+          <ZeplinSvg />
         </SkillBox>
       </section>
     </section>
@@ -203,6 +270,12 @@ export const Skills = () => (
         >
           <GoogleCloudSvg />
         </SkillBox>
+        <SkillBox
+          langText="Pivotal Cloud Foundry"
+          skillDocsUrl="https://docs.cloudfoundry.org/"
+        >
+          <PivotalCloudFoundrySvg />
+        </SkillBox>
       </section>
     </section>
     <section className="pb-5">
@@ -219,6 +292,12 @@ export const Skills = () => (
           skillDocsUrl="https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=en"
         >
           <AdobeAnalyticsSvg />
+        </SkillBox>
+        <SkillBox
+          langText="Adobe Tag Manager"
+          skillDocsUrl="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en"
+        >
+          <AdobeSvg />
         </SkillBox>
       </section>
     </section>

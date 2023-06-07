@@ -1,16 +1,16 @@
-import React, { Suspense, useState } from 'react';
-import { Header } from 'grommet';
-import { NavRoutes } from '../../DataStubs/NavRouterStub';
-import { NavDetails } from './NavDetails';
-import { LoadingSpinner } from '../LoadingSpinner';
-import { NavLink } from './NavLink';
+import React, { Suspense, useState } from "react";
+import { Header } from "grommet";
+import { NavRoutes } from "../../DataStubs/NavRouterStub";
+import { NavDetails } from "./NavDetails";
+import { LoadingSpinner } from "../LoadingSpinner";
+import { NavLink } from "./NavLink";
 
 export const NavBar = () => {
-  const [menuUnderLine, setMenuUnderLine] = useState('Home');
+  const [menuUnderLine, setMenuUnderLine] = useState("Home");
 
   const handleOnClick = (event) => {
     const {
-      currentTarget: { innerText = '' },
+      currentTarget: { innerText = "" },
     } = event;
     setMenuUnderLine(innerText);
   };
@@ -24,7 +24,7 @@ export const NavBar = () => {
       <section className="col header-wrapper">
         <Header className="header__grommet" background="#000" pad="medium">
           <Suspense fallback={() => <LoadingSpinner />}>
-            {NavRoutes.map(({ routeUrl = '', navLabel = '' }, index) => {
+            {NavRoutes.map(({ routeUrl = "", navLabel = "" }, index) => {
               return (
                 <NavLink
                   key={`NavLink-${index}-${routeUrl}`}

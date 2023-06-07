@@ -1,16 +1,13 @@
 import React, { Fragment } from "react";
-import {
-  Switch,
-  Route,
-} from "react-router-dom";
-import { ScrollToTop } from '../Components/ScrollToTop'
-import { Landing } from '../Components/Landing';
-import { About } from '../Components/About';
-import { Skills } from '../Components/Skills/Skills';
-import { Work } from '../Components/Work';
-import { Education } from '../Components/Education';
-import { Contact } from '../Components/Contact';
-import { NotFound } from '../Components/NotFound';
+import { Switch, Route } from "react-router-dom";
+import { ScrollToTop } from "../Components/ScrollToTop";
+import { Landing } from "../Components/Landing";
+import { About } from "../Components/About";
+import { Skills } from "../Components/Skills/Skills";
+import { Work } from "../Components/Work";
+import { Education } from "../Components/Education";
+import { Contact } from "../Components/Contact";
+import { NotFound } from "../Components/NotFound";
 
 export const Router = () => {
   return (
@@ -29,4 +26,4 @@ export const Router = () => {
       </Switch>
     </Fragment>
   );
-}
+};

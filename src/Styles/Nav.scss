@@ -27,7 +27,6 @@
   padding: 0px !important;
 }
 
-
 .nav-link-border {
   border-bottom: 1px solid white;
 }
@@ -37,20 +36,20 @@
 }
 
 .nav-link {
-  color:white;
+  color: white;
   &:hover {
-    color: #B5D670;
+    color: #b5d670;
   }
 }
 
 .nav-link:hover {
-  color: #B5D670;
+  color: #b5d670;
 }
 
 .navdetails {
   &__content {
     @extend .h4;
-    color: #F77E7E;
+    color: #f77e7e;
     font-weight: 700;
   }
 }

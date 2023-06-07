@@ -13,8 +13,5 @@
     "linebreak-style": "error",
     "no-console": "error"
   },
-  "plugins": [
-    "react",
-    "jex-a11y"
-  ]
+  "plugins": ["react", "jex-a11y"]
 }

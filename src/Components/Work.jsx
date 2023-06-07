@@ -1,12 +1,12 @@
-import React from 'react';
-import { Accordion, AccordionPanel, Box } from 'grommet';
+import React from "react";
+import { Accordion, AccordionPanel, Box } from "grommet";
 
 export const Work = () => (
   <section className="p-4 pt-7">
     <h1 className="pb-5">Experience</h1>
     <Box>
       <Accordion>
-      <AccordionPanel
+        <AccordionPanel
           className="p-3"
           label="Synchrony Financial (Capgemini), Jan-2021 to Present"
         >
@@ -18,9 +18,22 @@ export const Work = () => (
           >
             <h4>Senior Consultant, Charlotte, NC</h4>
             <ul>
-              <li>Team lead for agile scrum team developing a consumer-facing web application used in e-commerce payments. Focus on the complete software development lifecycle for cloud-based web applications within the React ecosystem.</li>
-              <li>Leads efforts on enterprise-focused feature releases & system design, extending the current application scope, and maintaining the current working state.</li>
-              <li>Guides software developers through mentoring, feedback, story estimation and prioritized work tasks, and all aspects of application development to ensure quality standards.</li>
+              <li>
+                Team lead for agile scrum team developing a consumer-facing web
+                application used in e-commerce payments. Focus on the complete
+                software development lifecycle for cloud-based web applications
+                within the React ecosystem.
+              </li>
+              <li>
+                Leads efforts on enterprise-focused feature releases & system
+                design, extending the current application scope, and maintaining
+                the current working state.
+              </li>
+              <li>
+                Guides software developers through mentoring, feedback, story
+                estimation and prioritized work tasks, and all aspects of
+                application development to ensure quality standards.
+              </li>
             </ul>
           </Box>
         </AccordionPanel>

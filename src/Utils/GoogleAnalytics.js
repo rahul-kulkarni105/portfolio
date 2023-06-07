@@ -1,22 +1,21 @@
 // utils/GoogleAnalytics.js
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import ReactGA from 'react-ga';
-import { Route } from 'react-router-dom';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import ReactGA from "react-ga";
+import { Route } from "react-router-dom";
 
 class GoogleAnalytics extends Component {
-  componentDidMount () {
+  componentDidMount() {
     const {
-      location: {
-        pathname,
-        search,
-      },
+      location: { pathname, search },
     } = this.props;
     this.logPageChange(pathname, search);
   }
 
-  componentDidUpdate ({ location: prevLocation }) {
-    const { location: { pathname, search } } = this.props;
+  componentDidUpdate({ location: prevLocation }) {
+    const {
+      location: { pathname, search },
+    } = this.props;
     const isDifferentPathname = pathname !== prevLocation.pathname;
     const isDifferentSearch = search !== prevLocation.search;
 
@@ -25,18 +24,18 @@ class GoogleAnalytics extends Component {
     }
   }
 
-  logPageChange (pathname, search = '') {
+  logPageChange(pathname, search = "") {
     const page = pathname + search;
     const { location } = window;
     ReactGA.set({
       page,
       location: `${location.origin}${page}`,
-      ...this.props.options
+      ...this.props.options,
     });
     ReactGA.pageview(page);
   }
 
-  render () {
+  render() {
     return null;
   }
 }
@@ -44,20 +43,20 @@ class GoogleAnalytics extends Component {
 GoogleAnalytics.propTypes = {
   location: PropTypes.shape({
     pathname: PropTypes.string,
-    search: PropTypes.string
+    search: PropTypes.string,
   }).isRequired,
-  options: PropTypes.object
+  options: PropTypes.object,
 };
 
 const RouteTracker = () => <Route component={GoogleAnalytics} />;
 
 const init = (options = {}) => {
-  const isGAEnabled = process.env.NODE_ENV === 'production';
+  const isGAEnabled = process.env.NODE_ENV === "production";
 
   if (isGAEnabled) {
     ReactGA.initialize(process.env.REACT_APP_GA_ID);
     // More urls can be added here if needed
-    ReactGA.pageview('/portfolio');
+    ReactGA.pageview("/portfolio");
   }
 
   return isGAEnabled;
@@ -66,5 +65,5 @@ const init = (options = {}) => {
 export default {
   GoogleAnalytics,
   RouteTracker,
-  init
+  init,
 };

@@ -5,12 +5,13 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "nice": "prettier --write src/",
+    "full-send": "react-scripts build",
     "test": "react-scripts test",
     "test-watch": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
     "pre-deploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "send-it": "gh-pages -d build"
   },
   "engines": {
     "node": "13.8.0"
@@ -57,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "generate-changelog": "^1.8.0",
     "node-sass": "^4.14.1",
+    "prettier": "2.8.8",
     "react-test-renderer": "^16.13.1"
   }
 }

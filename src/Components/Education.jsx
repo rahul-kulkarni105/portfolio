@@ -1,12 +1,12 @@
-import React from 'react';
-import { Box, Carousel, Image } from 'grommet';
+import React from "react";
+import { Box, Carousel, Image } from "grommet";
 
-const umassd1 = require('../Images/umassd1.jpeg');
-const umassd2 = require('../Images/umassd2.jpeg');
-const umassd3 = require('../Images/umassd3.jpeg');
-const ytiet1 = require('../Images/ytiet1.jpeg');
-const ytiet2 = require('../Images/ytiet2.jpeg');
-const ytiet3 = require('../Images/ytiet3.jpeg');
+const umassd1 = require("../Images/umassd1.jpeg");
+const umassd2 = require("../Images/umassd2.jpeg");
+const umassd3 = require("../Images/umassd3.jpeg");
+const ytiet1 = require("../Images/ytiet1.jpeg");
+const ytiet2 = require("../Images/ytiet2.jpeg");
+const ytiet3 = require("../Images/ytiet3.jpeg");
 
 export const Education = () => (
   <section className="p-4 pt-7">

@@ -1,5 +1,5 @@
-import React from 'react';
-import { ReactLoading } from './Logos/ReactLoading';
+import React from "react";
+import { ReactLoading } from "./Logos/ReactLoading";
 
 export const LoadingSpinner = () => (
   <section className="d-flex justify-content-center">

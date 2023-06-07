@@ -1,7 +1,7 @@
-import { Footer, Text } from 'grommet';
-import React from 'react';
-import { GitHubSvg } from './Logos/GitHubSvg';
-import { LinkedinSvg } from './Logos/LinkedinSvg';
+import { Footer, Text } from "grommet";
+import React from "react";
+import { GitHubSvg } from "./Logos/GitHubSvg";
+import { LinkedinSvg } from "./Logos/LinkedinSvg";
 
 export const FooterWrapper = () => {
   // const [lastUpdated, setLastUpdated] = useState('');
@@ -24,19 +24,19 @@ export const FooterWrapper = () => {
 
   return (
     <Footer className="footer" background="#000" pad="medium">
-    <section>
-      <Text className="p-2 footer__text">Last updated: 04/03/2022</Text>
-    </section>
-    <section>
-      <GitHubSvg
-        link="https://github.com/rahul-kulkarni105"
-        customIconClass="ml-2 mr-2"
-      />
-      <LinkedinSvg
-        link="https://www.linkedin.com/in/rahul-kulkarni105/"
-        customIconClass="ml-2 mr-2"
-      />
-    </section>
-  </Footer>
+      <section>
+        <Text className="p-2 footer__text">Last updated: 06/06/2023</Text>
+      </section>
+      <section>
+        <GitHubSvg
+          link="https://github.com/rahul-kulkarni105"
+          customIconClass="ml-2 mr-2"
+        />
+        <LinkedinSvg
+          link="https://www.linkedin.com/in/rahul-kulkarni105/"
+          customIconClass="ml-2 mr-2"
+        />
+      </section>
+    </Footer>
   );
 };

@@ -1,6 +1,6 @@
 export const replaceForwardSlash = (string) => {
-  return string.replace(/\//g, '');
-}
+  return string.replace(/\//g, "");
+};
 
 export const currentDay = () => {
   let today = new Date();
@@ -8,7 +8,7 @@ export const currentDay = () => {
   let mm = today.getMonth() + 1;
   const yyyy = today.getFullYear();
 
-  if (dd<10) dd = '0'+ dd;
-  if (mm<10) mm = '0'+ mm;
-  return (mm+'-'+dd+'-'+yyyy);
+  if (dd < 10) dd = "0" + dd;
+  if (mm < 10) mm = "0" + mm;
+  return mm + "-" + dd + "-" + yyyy;
 };

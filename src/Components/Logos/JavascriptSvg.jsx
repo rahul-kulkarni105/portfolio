@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const JavascriptSvg = () => (
   <svg className="devicon-git-plain" viewBox="0 0 128 128">

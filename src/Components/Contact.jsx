@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Contact = () => (
   <section className="p-4 pt-7">
