@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-scripts start",
     "nice": "prettier --write src/",
-    "full-send": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "test-watch": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
