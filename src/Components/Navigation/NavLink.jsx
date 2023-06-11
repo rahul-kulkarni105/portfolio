@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ClassNames from "classnames";
 
 export const NavLink = ({
   handleOnClick,
@@ -8,13 +7,11 @@ export const NavLink = ({
   routeUrl = "",
   menuUnderLine = "",
 }) => {
-  const navClass = ClassNames("nav-link", {
-    "nav-link-border": menuUnderLine === navLabel,
-    "nav-link-border-less": menuUnderLine !== navLabel,
-  });
+  const navClass =
+    menuUnderLine === navLabel ? "nav-link-border" : "nav-link-border-less";
   return (
     <div className="" onClick={(event) => handleOnClick(event, navLabel)}>
-      <Link className={navClass} to={`/${routeUrl}`}>
+      <Link className={`nav-link ${navClass}`} to={`/${routeUrl}`}>
         {navLabel}
       </Link>
     </div>

@@ -22,8 +22,8 @@ export const NavBar = () => {
       </section>
       <section className="col nav-col" />
       <section className="col header-wrapper">
-        <Header className="header__grommet" background="#000" pad="medium">
-          <Suspense fallback={() => <LoadingSpinner />}>
+        <Suspense fallback={() => <LoadingSpinner />}>
+          <Header className="header__grommet" background="#000" pad="medium">
             {NavRoutes.map(({ routeUrl = "", navLabel = "" }, index) => {
               return (
                 <NavLink
@@ -35,8 +35,8 @@ export const NavBar = () => {
                 />
               );
             })}
-          </Suspense>
-        </Header>
+          </Header>
+        </Suspense>
       </section>
     </nav>
   );

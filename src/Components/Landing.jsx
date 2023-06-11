@@ -9,7 +9,8 @@ export const Landing = () => {
           with 7+ years of comprehensive web application development experience,
         </p>
         <p className="landing__paragraph">
-          with extensive fintech experience in insurance, credit cards, banking & design domains.
+          with extensive fintech experience in insurance, credit cards, banking
+          & design domains.
         </p>
       </section>
     </section>

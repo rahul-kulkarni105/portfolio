@@ -1,31 +1,13 @@
-import { Footer, Text } from "grommet";
 import React from "react";
+import { Footer, Text } from "grommet";
 import { GitHubSvg } from "./Logos/GitHubSvg";
 import { LinkedinSvg } from "./Logos/LinkedinSvg";
 
 export const FooterWrapper = () => {
-  // const [lastUpdated, setLastUpdated] = useState('');
-
-  // TODO: Fix below
-  // useEffect(() => {
-  //   const fetchLastUpdated = async () => {
-  //     const response = await fetch(
-  //       'https://api.github.com/repos/rahul-kulkarni105/portfolio/releases/latest'
-  //     );
-
-  //     const body = await response.json();
-  //     const date = new Date(body.published_at);
-  //     const formattedDate = new Intl.DateTimeFormat('en-US').format(date);
-  //     setLastUpdated(formattedDate);
-  //   }
-
-  //   fetchLastUpdated();
-  // }, []);
-
   return (
-    <Footer className="footer" background="#000" pad="medium">
+    <Footer className="footer" background="#000000" pad="medium">
       <section>
-        <Text className="p-2 footer__text">Last updated: 06/06/2023</Text>
+        <Text className="p-2 footer__text">Last updated: 06/11/2023</Text>
       </section>
       <section>
         <GitHubSvg
