@@ -53,9 +53,9 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "prettier": "2.8.8",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.13.1"
   }
 }
