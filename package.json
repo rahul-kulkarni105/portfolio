@@ -10,7 +10,7 @@
     "test": "react-scripts test",
     "test-watch": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
-    "pre-deploy": "npm run nice && npm run build",
+    "pre-deploy": "npm run build",
     "send-it": "gh-pages -d build"
   },
   "engines": {
