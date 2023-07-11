@@ -1,7 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 import { create } from "react-test-renderer";
-import { Skills } from "../../Components/Skills";
+import { Skills } from "../../Components/Skills/Skills";
 
 describe("Components/Skills Test suite", () => {
   it("Tets to check if component loads successfully", () => {

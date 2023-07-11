@@ -1,4 +1,5 @@
 import React from "react";
+import { string } from "prop-types";
 
 export const LinkedinSvg = ({ link = "", customIconClass = "" }) => (
   <a
@@ -20,3 +21,8 @@ export const LinkedinSvg = ({ link = "", customIconClass = "" }) => (
     </svg>
   </a>
 );
+
+LinkedinSvg.propTypes = {
+  link: string,
+  customIconClass: string,
+};

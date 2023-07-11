@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { Suspense, useState } from "react";
 import { Header } from "grommet";
 import { NavRoutes } from "../../DataStubs/NavRouterStub";
@@ -24,17 +25,15 @@ export const NavBar = () => {
       <section className="col header-wrapper">
         <Suspense fallback={() => <LoadingSpinner />}>
           <Header className="header__grommet" background="#000" pad="medium">
-            {NavRoutes.map(({ routeUrl = "", navLabel = "" }, index) => {
-              return (
-                <NavLink
-                  key={`NavLink-${index}-${routeUrl}`}
-                  menuUnderLine={menuUnderLine}
-                  handleOnClick={handleOnClick}
-                  routeUrl={routeUrl}
-                  navLabel={navLabel}
-                />
-              );
-            })}
+            {NavRoutes.map(({ routeUrl = "", navLabel = "" }, index) => (
+              <NavLink
+                key={`NavLink-${index}-${routeUrl}`}
+                menuUnderLine={menuUnderLine}
+                handleOnClick={handleOnClick}
+                routeUrl={routeUrl}
+                navLabel={navLabel}
+              />
+            ))}
           </Header>
         </Suspense>
       </section>

@@ -6,5 +6,9 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "cSpell.words": [
+    "umassd",
+    "ytiet"
+  ]
 }

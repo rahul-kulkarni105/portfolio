@@ -25,12 +25,13 @@ class GoogleAnalytics extends Component {
   }
 
   logPageChange(pathname, search = "") {
+    const { options } = this.props;
     const page = pathname + search;
     const { location } = window;
     ReactGA.set({
       page,
       location: `${location.origin}${page}`,
-      ...this.props.options,
+      ...options,
     });
     ReactGA.pageview(page);
   }
@@ -45,11 +46,12 @@ GoogleAnalytics.propTypes = {
     pathname: PropTypes.string,
     search: PropTypes.string,
   }).isRequired,
-  options: PropTypes.object,
+  options: PropTypes.shape,
 };
 
 const RouteTracker = () => <Route component={GoogleAnalytics} />;
 
+// eslint-disable-next-line no-unused-vars
 const init = (options = {}) => {
   const isGAEnabled = process.env.NODE_ENV === "production";
 

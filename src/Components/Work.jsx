@@ -16,7 +16,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Senior Consultant, Charlotte, NC</h4>
+            <h4>Senior Consultant, Austin, TX (Remote)</h4>
             <ul>
               <li>
                 Team lead for agile scrum team developing a consumer-facing web
@@ -47,7 +47,7 @@ export const Work = () => (
             overflow="auto"
             height="small"
           >
-            <h4>Senior Consultant, Charlotte, NC</h4>
+            <h4>Senior Consultant, Charlotte, NC (Remote)</h4>
             <ul>
               <li>
                 Develop and maintain micro-sites and supporting repositories in

@@ -114,7 +114,7 @@ export const AdobeAnalyticsSvg = () => (
       <polygon
         className="st0"
         fill="#231F20"
-        points="592.9,345.3 592.9,345.3 592.9,345.3 	"
+        points="592.9,345.3 592.9,345.3 592.9,345.3"
       />
       <path
         className="st0"

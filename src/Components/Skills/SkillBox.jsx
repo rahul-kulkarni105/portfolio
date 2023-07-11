@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 import React from "react";
 import { string, any } from "prop-types";
 import { Box, Text } from "grommet";
@@ -31,4 +32,7 @@ export const SkillBox = ({
 SkillBox.propTypes = {
   children: any,
   langText: string,
+  customSkillsBoxClass: string,
+  customSkillsTextClass: string,
+  skillDocsUrl: string,
 };
