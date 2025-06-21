@@ -12,6 +12,16 @@
   min-height: 350px;
 }
 
+.skills-wrapper {
+  &__link {
+    display: inline-block;
+    width: 150px;
+    height: 180px;
+    box-shadow: 0 4px 8px #ccd3dd;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 576px) {
   .skills-wrapper {
     display: flex;
@@ -20,12 +30,9 @@
     a {
       text-decoration: none;
     }
-    &__link {
-      display: block;
-      width: 150px;
-      box-shadow: 0 4px 8px #ccd3dd;
-      justify-content: center;
-    }
+    // &__link {
+    //   width: 150px;
+    // }
     &__box {
       padding: auto 0;
     }
