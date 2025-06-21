@@ -151,10 +151,7 @@ export const Skills = () => (
         >
           <ReactTestingLibrarySvg />
         </SkillBox>
-        <SkillBox
-          langText="Vitest"
-          skillDocsUrl="https://vitest.dev/"
-        >
+        <SkillBox langText="Vitest" skillDocsUrl="https://vitest.dev/">
           <VitestSvg />
         </SkillBox>
         <SkillBox langText="Enzyme" skillDocsUrl="https://airbnb.io/enzyme/">
@@ -230,7 +227,10 @@ export const Skills = () => (
         <SkillBox langText="Rollup" skillDocsUrl="https://rollupjs.org/">
           <RollupSvg />
         </SkillBox>
-        <SkillBox langText="Hashi Corp Vault" skillDocsUrl="https://developer.hashicorp.com/vault/docs">
+        <SkillBox
+          langText="Hashi Corp Vault"
+          skillDocsUrl="https://developer.hashicorp.com/vault/docs"
+        >
           <HashiCorpSvg />
         </SkillBox>
         <SkillBox langText="Git" skillDocsUrl="https://git-scm.com/doc">
