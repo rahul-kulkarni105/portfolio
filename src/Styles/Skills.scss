@@ -8,6 +8,10 @@
   overflow-y: auto;
 }
 
+.last-section {
+  min-height: 350px;
+}
+
 @media (min-width: 576px) {
   .skills-wrapper {
     display: flex;
@@ -30,12 +34,6 @@
     }
   }
 }
-
-// @media (min-width: 992px) {
-//   .skills-wrapper {
-//     justify-content: space-between;
-//   }
-// }
 
 @media (min-width: 1200px) {
   .skills-wrapper {

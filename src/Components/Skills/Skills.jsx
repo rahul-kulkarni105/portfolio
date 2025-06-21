@@ -50,6 +50,13 @@ import { RemixSvg } from "../Logos/RemixSvg";
 import { ReactRouterSvg } from "../Logos/ReactRouterSvg";
 import { AkamaiSvg } from "../Logos/AkamaiSvg";
 import { NginxSvg } from "../Logos/NginxSvg";
+import { SplunkSvg } from "../Logos/SplunkSvg";
+import { ApplePaySvg } from "../Logos/ApplePaySvg";
+import { GooglePaySvg } from "../Logos/GooglePaySvg";
+import { SamsungPaySvg } from "../Logos/SamsungPaySvg";
+import { AmazonPaySvg } from "../Logos/AmazonPaySvg";
+import { ApigeeSvg } from "../Logos/ApigeeSvg";
+import { NewRelicSvg } from "../Logos/NewRelicSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -279,12 +286,12 @@ export const Skills = () => (
         >
           <AdobeSvg />
         </SkillBox>
-        {/* <SkillBox
-          langText="Whimsical"
-          skillDocsUrl="https://whimsical.com/docs"
+        <SkillBox
+          langText="New Relic"
+          skillDocsUrl="https://docs.newrelic.com/"
         >
-          <WhimsicalSvg />
-        </SkillBox> */}
+          <NewRelicSvg />
+        </SkillBox>
         <SkillBox
           langText="Vs Code"
           skillDocsUrl="https://code.visualstudio.com/docs"
@@ -335,10 +342,22 @@ export const Skills = () => (
           <GoogleCloudSvg />
         </SkillBox>
         <SkillBox
+          langText="Apigee"
+          skillDocsUrl="https://docs.apigee.com/"
+        >
+          <ApigeeSvg />
+        </SkillBox>
+        <SkillBox
           langText="Pivotal Cloud Foundry"
           skillDocsUrl="https://docs.cloudfoundry.org/"
         >
           <PivotalCloudFoundrySvg />
+        </SkillBox>
+        <SkillBox
+          langText="Splunk"
+          skillDocsUrl="https://docs.splunk.com/Documentation"
+        >
+          <SplunkSvg />
         </SkillBox>
       </section>
     </section>
@@ -362,6 +381,35 @@ export const Skills = () => (
           skillDocsUrl="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en"
         >
           <AdobeSvg />
+        </SkillBox>
+      </section>
+    </section>
+    <section className="pb-5 last-section">
+      <p>Features</p>
+      <section className="skills-wrapper">
+        <SkillBox
+          langText="Apple Pay"
+          skillDocsUrl="https://developer.apple.com/documentation/passkit/apple-pay"
+        >
+          <ApplePaySvg />
+        </SkillBox>
+        <SkillBox
+          langText="Google Pay"
+          skillDocsUrl="https://developers.google.com/pay/api/web/overview"
+        >
+          <GooglePaySvg />
+        </SkillBox>
+        <SkillBox
+          langText="Samsung Pay"
+          skillDocsUrl="https://developer.samsung.com/pay/native/about-this-guide.html"
+        >
+          <SamsungPaySvg />
+        </SkillBox>
+        <SkillBox
+          langText="Amazon Pay"
+          skillDocsUrl="https://developer.amazon.com/docs/amazon-pay/intro.html"
+        >
+          <AmazonPaySvg />
         </SkillBox>
       </section>
     </section>
