@@ -42,10 +42,23 @@
   position: relative;
 }
 
+.col-md-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 @media (max-width: 576px) {
   .router-wrapper {
     position: absolute;
-    top: 230px;
+    top: 80px;
     width: 100%;
     margin-bottom: 100px;
   }
@@ -58,18 +71,16 @@
     width: 100%;
     margin-bottom: 100px;
   }
+  #profile-avatar {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 @media (min-width: 1200px) {
   .router-wrapper {
     top: 85px;
   }
-}
-
-#profile-avatar {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
 }
 
 .footer {

@@ -3,11 +3,11 @@ import React from "react";
 const profileAvatar = require("../Images/profile-avatar.jpg");
 
 export const About = () => (
-  <section className="p-4 pt-7 about row">
+  <section className="p-4 about row">
     <section className="col-xs-12 col-md-7">
       <section className="p-4 about">
         <section className="about-content">
-          <h1 className="pb-5">About me</h1>
+          <h1 className="pb-2">About me</h1>
           <p>
             Senior Front-End Engineer with 9+ years of comprehensive web
             application experience, with extensive fintech experience in
@@ -50,7 +50,7 @@ export const About = () => (
         </section>
       </section>
     </section>
-    <section className="col-xs-12 col-md-5">
+    <section className="col-xs-12 col-md-5 pb-5">
       <img id="profile-avatar" src={profileAvatar} alt="Profile Avatar" />
     </section>
   </section>

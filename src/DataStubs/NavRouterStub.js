@@ -5,7 +5,7 @@ export const NavRoutes = [
   },
   {
     routeUrl: "about",
-    navLabel: "About",
+    navLabel: "About Me",
   },
   {
     routeUrl: "skills",
