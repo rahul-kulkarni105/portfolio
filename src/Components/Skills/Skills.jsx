@@ -45,7 +45,7 @@ import { JotaiSvg } from "../Logos/JotaiSvg";
 import { ReactQuerySvg } from "../Logos/ReactQuerySvg";
 import { HashiCorpSvg } from "../Logos/HashiCorpSvg";
 import { VitestSvg } from "../Logos/VitestSvg";
-// import { StyledComponentsSvg } from "../Logos/StyledComponentsSVg";
+import { StyledComponentsSvg } from "../Logos/StyledComponentsSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -183,12 +183,12 @@ export const Skills = () => (
         >
           <TailwindSvg />
         </SkillBox>
-        {/* <SkillBox
+        <SkillBox
           langText="Styled Components"
           skillDocsUrl="https://styled-components.com/docs"
         >
           <StyledComponentsSvg />
-        </SkillBox> */}
+        </SkillBox>
         <SkillBox
           langText="Bootstrap"
           skillDocsUrl="https://getbootstrap.com/docs/4.4/getting-started/introduction/"
