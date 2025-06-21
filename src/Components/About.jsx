@@ -18,7 +18,8 @@ export const About = () => (
             of them (right now i have visited about 18). Apart from this i am
             huge European soccer fan, like to try new breweries, eat spicy food,
             collect fridge magnates, like to send postcards and wishes if i was
-            one of{" "}
+            one of
+            {" "}
             <a
               title="Gene identified in people who need little sleep"
               target="_blank"
@@ -26,7 +27,8 @@ export const About = () => (
               href="https://www.nih.gov/news-events/nih-research-matters/gene-identified-people-who-need-little-sleep"
             >
               these
-            </a>{" "}
+            </a>
+            {" "}
             lucky folks.
           </p>
         </section>
@@ -34,11 +36,15 @@ export const About = () => (
           Books I am currently reading:
           <ul>
             <li>
-              Soccernomics <i>by Simon Kuper & Stefan Szymanski</i>
+              Soccernomics
+              {' '}
+              <i>by Simon Kuper & Stefan Szymanski</i>
             </li>
             <li>
               The Infinite Machine: How an Army of Crypto-hackers Is Building
-              the Next Internet with Ethereum <i>by Camila Russo</i>
+              the Next Internet with Ethereum
+              {' '}
+              <i>by Camila Russo</i>
             </li>
           </ul>
         </section>
