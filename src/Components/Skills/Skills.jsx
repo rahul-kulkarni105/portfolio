@@ -110,7 +110,10 @@ export const Skills = () => (
         >
           <ReactQuerySvg />
         </SkillBox>
-        <SkillBox langText="Story Book" skillDocsUrl="https://storybook.js.org/docs">
+        <SkillBox
+          langText="Story Book"
+          skillDocsUrl="https://storybook.js.org/docs"
+        >
           <StoryBookSvg />
         </SkillBox>
         <SkillBox langText="VueJs" skillDocsUrl="https://vuejs.org/">
@@ -136,7 +139,10 @@ export const Skills = () => (
         <SkillBox langText="ExpressJs" skillDocsUrl="https://expressjs.com/">
           <ExpressJsSvg />
         </SkillBox>
-        <SkillBox langText="Akamai" skillDocsUrl="https://techdocs.akamai.com/home">
+        <SkillBox
+          langText="Akamai"
+          skillDocsUrl="https://techdocs.akamai.com/home"
+        >
           <AkamaiSvg />
         </SkillBox>
         <SkillBox langText="Nginx" skillDocsUrl="https://nginx.org/en/docs/">
@@ -345,10 +351,7 @@ export const Skills = () => (
         >
           <GoogleCloudSvg />
         </SkillBox>
-        <SkillBox
-          langText="Apigee"
-          skillDocsUrl="https://docs.apigee.com/"
-        >
+        <SkillBox langText="Apigee" skillDocsUrl="https://docs.apigee.com/">
           <ApigeeSvg />
         </SkillBox>
         <SkillBox

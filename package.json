@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "nice": "prettier --write .",
+    "nice": "prettier --write src/",
     "eslint": "npx eslint src/ --fix",
     "build": "react-scripts build",
     "test": "react-scripts test",
