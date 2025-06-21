@@ -2,7 +2,7 @@ import React from "react";
 import { Accordion, AccordionPanel, Box } from "grommet";
 
 export const Work = () => (
-  <section className="p-4 pt-5">
+  <section className="p-4 pt-6">
     <h1 className="pb-3">Work</h1>
     <Box>
       <Accordion>

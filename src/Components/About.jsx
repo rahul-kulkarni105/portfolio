@@ -3,9 +3,9 @@ import React from "react";
 const profileAvatar = require("../Images/profile-avatar.jpg");
 
 export const About = () => (
-  <section className="p-4 about row">
+  <section className="p-4 pt-6 about row">
     <section className="col-xs-12 col-md-7">
-      <section className="p-4 about">
+      <section className="about">
         <section className="about-content">
           <h1 className="pb-2">About me</h1>
           <p>
