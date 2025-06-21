@@ -46,6 +46,8 @@ import { ReactQuerySvg } from "../Logos/ReactQuerySvg";
 import { HashiCorpSvg } from "../Logos/HashiCorpSvg";
 import { VitestSvg } from "../Logos/VitestSvg";
 import { StyledComponentsSvg } from "../Logos/StyledComponentsSvg";
+import { RemixSvg } from "../Logos/RemixSvg";
+import { ReactRouterSvg } from "../Logos/ReactRouterSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -70,6 +72,18 @@ export const Skills = () => (
           skillDocsUrl="https://reactjs.org/docs/getting-started.html"
         >
           <ReactSvg />
+        </SkillBox>
+        <SkillBox
+          langText="React Router"
+          skillDocsUrl="https://reactrouter.com/home"
+        >
+          <ReactRouterSvg />
+        </SkillBox>
+        <SkillBox
+          langText="Remix"
+          skillDocsUrl="https://remix.run/docs/en/main"
+        >
+          <RemixSvg />
         </SkillBox>
         <SkillBox
           langText="Redux"
