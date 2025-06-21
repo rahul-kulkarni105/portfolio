@@ -48,6 +48,8 @@ import { VitestSvg } from "../Logos/VitestSvg";
 import { StyledComponentsSvg } from "../Logos/StyledComponentsSvg";
 import { RemixSvg } from "../Logos/RemixSvg";
 import { ReactRouterSvg } from "../Logos/ReactRouterSvg";
+import { AkamaiSvg } from "../Logos/AkamaiSvg";
+import { NginxSvg } from "../Logos/NginxSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -122,6 +124,12 @@ export const Skills = () => (
         </SkillBox>
         <SkillBox langText="ExpressJs" skillDocsUrl="https://expressjs.com/">
           <ExpressJsSvg />
+        </SkillBox>
+        <SkillBox langText="Akamai" skillDocsUrl="https://techdocs.akamai.com/home">
+          <AkamaiSvg />
+        </SkillBox>
+        <SkillBox langText="Nginx" skillDocsUrl="https://nginx.org/en/docs/">
+          <NginxSvg />
         </SkillBox>
         <SkillBox
           langText="Heroku"
