@@ -1,14 +1,13 @@
 {
   "editor.detectIndentation": true,
   "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 80,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "eslint.format.enable": true,
-  "cSpell.words": [
-    "umassd",
-    "ytiet"
-  ]
+  "cSpell.words": ["umassd", "ytiet"]
 }

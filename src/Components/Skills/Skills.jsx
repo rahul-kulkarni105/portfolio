@@ -40,6 +40,8 @@ import { ZeplinSvg } from "../Logos/ZeplinSvg";
 import { AdobeSvg } from "../Logos/AdobeSvg";
 // import { WhimsicalSvg } from "../Logos/WhimsicalSvg";
 import { PivotalCloudFoundrySvg } from "../Logos/PivotalCloudFoundrySvg";
+import { FigmaSvg } from "../Logos/FigmaSvg";
+import { JotaiSvg } from "../Logos/JotaiSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -70,6 +72,9 @@ export const Skills = () => (
           skillDocsUrl="https://redux.js.org/introduction/getting-started"
         >
           <ReduxSvg />
+        </SkillBox>
+        <SkillBox langText="Jotai" skillDocsUrl="https://jotai.org/docs">
+          <JotaiSvg />
         </SkillBox>
         <SkillBox langText="VueJs" skillDocsUrl="https://vuejs.org/">
           <VueSvg />
@@ -249,6 +254,12 @@ export const Skills = () => (
           skillDocsUrl="https://support.invisionapp.com/"
         >
           <InVisionSvg />
+        </SkillBox>
+        <SkillBox
+          langText="Figma"
+          skillDocsUrl="https://help.figma.com/hc/en-us"
+        >
+          <FigmaSvg />
         </SkillBox>
         <SkillBox langText="Zeplin" skillDocsUrl="https://docs.zeplin.dev/docs">
           <ZeplinSvg />

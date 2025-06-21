@@ -8,11 +8,13 @@ export const LinkedinSvg = ({ link = "", customIconClass = "" }) => (
     title="Linkedin Profile"
     rel="noopener noreferrer"
     className={`footer-icon ${customIconClass}`}
+    aria-label="Linkedin Profile"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="footer-icon"
       viewBox="0 0 24 24"
+      aria-hidden="true"
     >
       <path
         fill="#fff"

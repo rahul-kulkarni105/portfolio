@@ -8,8 +8,9 @@ export const GitHubSvg = ({ link = "", customIconClass = "" }) => (
     title="Github Profile"
     rel="noopener noreferrer"
     className={`footer-icon ${customIconClass}`}
+    aria-label="GitHub Profile"
   >
-    <svg className="footer-icon" viewBox="0 0 128 128">
+    <svg className="footer-icon" viewBox="0 0 128 128" aria-hidden="true">
       <path
         fillRule="evenodd"
         fill="#fff"

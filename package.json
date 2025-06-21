@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "nice": "prettier --write src/",
+    "nice": "prettier --write .",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-watch": "react-scripts test --watchAll",
@@ -14,7 +14,7 @@
     "send-it": "gh-pages -d build"
   },
   "engines": {
-    "node": "20.3.0"
+    "node": "20.x.x"
   },
   "eslintConfig": {
     "extends": "react-app"
