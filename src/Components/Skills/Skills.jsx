@@ -57,6 +57,7 @@ import { SamsungPaySvg } from "../Logos/SamsungPaySvg";
 import { AmazonPaySvg } from "../Logos/AmazonPaySvg";
 import { ApigeeSvg } from "../Logos/ApigeeSvg";
 import { NewRelicSvg } from "../Logos/NewRelicSvg";
+import { StoryBookSvg } from "../Logos/StoryBookSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -108,6 +109,9 @@ export const Skills = () => (
           skillDocsUrl="https://tanstack.com/query/latest"
         >
           <ReactQuerySvg />
+        </SkillBox>
+        <SkillBox langText="Story Book" skillDocsUrl="https://storybook.js.org/docs">
+          <StoryBookSvg />
         </SkillBox>
         <SkillBox langText="VueJs" skillDocsUrl="https://vuejs.org/">
           <VueSvg />
