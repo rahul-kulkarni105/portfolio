@@ -38,7 +38,7 @@ import { RollupSvg } from "../Logos/RollupSvg";
 import { InVisionSvg } from "../Logos/InVisionSvg";
 import { ZeplinSvg } from "../Logos/ZeplinSvg";
 import { AdobeSvg } from "../Logos/AdobeSvg";
-// import { WhimsicalSvg } from "../Logos/WhimsicalSvg";
+import { WhimsicalSvg } from "../Logos/WhimsicalSvg";
 import { PivotalCloudFoundrySvg } from "../Logos/PivotalCloudFoundrySvg";
 import { FigmaSvg } from "../Logos/FigmaSvg";
 import { JotaiSvg } from "../Logos/JotaiSvg";
@@ -288,6 +288,12 @@ export const Skills = () => (
         </SkillBox>
         <SkillBox langText="Zeplin" skillDocsUrl="https://docs.zeplin.dev/docs">
           <ZeplinSvg />
+        </SkillBox>
+        <SkillBox
+          langText="Whimsical"
+          skillDocsUrl="https://whimsical.com/docs"
+        >
+          <WhimsicalSvg />
         </SkillBox>
       </section>
     </section>
