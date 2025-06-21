@@ -42,6 +42,10 @@ import { AdobeSvg } from "../Logos/AdobeSvg";
 import { PivotalCloudFoundrySvg } from "../Logos/PivotalCloudFoundrySvg";
 import { FigmaSvg } from "../Logos/FigmaSvg";
 import { JotaiSvg } from "../Logos/JotaiSvg";
+import { ReactQuerySvg } from "../Logos/ReactQuerySvg";
+import { HashiCorpSvg } from "../Logos/HashiCorpSvg";
+import { VitestSvg } from "../Logos/VitestSvg";
+// import { StyledComponentsSvg } from "../Logos/StyledComponentsSVg";
 
 export const Skills = () => (
   <section className="p-4 pt-7 col-12 skills__component">
@@ -75,6 +79,12 @@ export const Skills = () => (
         </SkillBox>
         <SkillBox langText="Jotai" skillDocsUrl="https://jotai.org/docs">
           <JotaiSvg />
+        </SkillBox>
+        <SkillBox
+          langText="React Query"
+          skillDocsUrl="https://tanstack.com/query/latest"
+        >
+          <ReactQuerySvg />
         </SkillBox>
         <SkillBox langText="VueJs" skillDocsUrl="https://vuejs.org/">
           <VueSvg />
@@ -141,6 +151,12 @@ export const Skills = () => (
         >
           <ReactTestingLibrarySvg />
         </SkillBox>
+        <SkillBox
+          langText="Vitest"
+          skillDocsUrl="https://vitest.dev/"
+        >
+          <VitestSvg />
+        </SkillBox>
         <SkillBox langText="Enzyme" skillDocsUrl="https://airbnb.io/enzyme/">
           <EnzymeSvg />
         </SkillBox>
@@ -167,6 +183,12 @@ export const Skills = () => (
         >
           <TailwindSvg />
         </SkillBox>
+        {/* <SkillBox
+          langText="Styled Components"
+          skillDocsUrl="https://styled-components.com/docs"
+        >
+          <StyledComponentsSvg />
+        </SkillBox> */}
         <SkillBox
           langText="Bootstrap"
           skillDocsUrl="https://getbootstrap.com/docs/4.4/getting-started/introduction/"
@@ -207,6 +229,9 @@ export const Skills = () => (
         </SkillBox>
         <SkillBox langText="Rollup" skillDocsUrl="https://rollupjs.org/">
           <RollupSvg />
+        </SkillBox>
+        <SkillBox langText="Hashi Corp Vault" skillDocsUrl="https://developer.hashicorp.com/vault/docs">
+          <HashiCorpSvg />
         </SkillBox>
         <SkillBox langText="Git" skillDocsUrl="https://git-scm.com/doc">
           <GitSvg />
