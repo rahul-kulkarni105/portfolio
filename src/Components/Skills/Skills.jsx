@@ -58,6 +58,8 @@ import { AmazonPaySvg } from "../Logos/AmazonPaySvg";
 import { ApigeeSvg } from "../Logos/ApigeeSvg";
 import { NewRelicSvg } from "../Logos/NewRelicSvg";
 import { StoryBookSvg } from "../Logos/StoryBookSvg";
+import { SupabaseSvg } from "../Logos/SupabaseSvg";
+import { VercelSvg } from "../Logos/VercelSvg";
 
 export const Skills = () => (
   <section className="p-4 pt-6 col-12 skills__component">
@@ -162,6 +164,9 @@ export const Skills = () => (
         <SkillBox langText="Mongo DB" skillDocsUrl="https://docs.mongodb.com/">
           <MongoDbSvg />
         </SkillBox>
+        <SkillBox langText="Supabase" skillDocsUrl="https://supabase.com/docs">
+          <SupabaseSvg />
+        </SkillBox>
       </section>
     </section>
     <section className="pb-5">
@@ -265,6 +270,9 @@ export const Skills = () => (
         </SkillBox>
         <SkillBox langText="Rollup" skillDocsUrl="https://rollupjs.org/">
           <RollupSvg />
+        </SkillBox>
+        <SkillBox langText="Vercel" skillDocsUrl="https://vercel.com/docs">
+          <VercelSvg />
         </SkillBox>
         <SkillBox
           langText="Hashi Corp Vault"
