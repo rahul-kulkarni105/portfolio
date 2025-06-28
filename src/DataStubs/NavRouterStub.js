@@ -1,26 +1,26 @@
 export const NavRoutes = [
   {
-    routeUrl: "portfolio",
+    routeUrl: "/",
     navLabel: "Home",
   },
   {
-    routeUrl: "about",
+    routeUrl: "/about",
     navLabel: "About Me",
   },
   {
-    routeUrl: "skills",
+    routeUrl: "/skills",
     navLabel: "Skills",
   },
   {
-    routeUrl: "work",
+    routeUrl: "/work",
     navLabel: "Work",
   },
   {
-    routeUrl: "education",
+    routeUrl: "/education",
     navLabel: "Education",
   },
   {
-    routeUrl: "contact",
+    routeUrl: "/contact",
     navLabel: "Contact",
   },
 ];

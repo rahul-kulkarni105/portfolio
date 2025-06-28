@@ -14,14 +14,12 @@ export const Router = () => (
     <ScrollToTop />
     <Switch>
       <Route exact path="/" component={Landing} />
-      <Route path="/portfolio" component={Landing} />
-      {/* <Route exact path="/portfolio/" component={Landing} /> */}
       <Route path="/about" component={About} />
       <Route path="/skills" component={Skills} />
       <Route path="/work" component={Work} />
       <Route path="/education" component={Education} />
       <Route path="/contact" component={Contact} />
-      <Route path="/" component={NotFound} />
+      <Route component={NotFound} />
     </Switch>
   </>
 );
