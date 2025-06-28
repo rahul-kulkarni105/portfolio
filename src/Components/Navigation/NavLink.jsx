@@ -13,7 +13,7 @@ export const NavLink = ({
   const navClass = menuUnderLine === navLabel ? "nav-link-border" : "nav-link-border-less";
   return (
     <div onClick={(event) => handleOnClick(event, navLabel)}>
-      <Link className={`nav-link ${navClass}`} to={`/${routeUrl}`}>
+      <Link className={`nav-link ${navClass}`} to={routeUrl}>
         {navLabel}
       </Link>
     </div>
